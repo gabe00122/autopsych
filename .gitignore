@@ -9,5 +9,24 @@ wheels/
 # Virtual environments
 .venv
 
+# Local environment variables
+.env
+
+# Office temporary lock files
+~$*
+
+# macOS metadata
+.DS_Store
+
+# Unreleased stimuli and local run outputs may contain embargoed materials.
+data/private/
+runs/
+
+# Python caches and coverage output
+__pycache__/
+*.py[cod]
+.coverage
+.pytest_cache/
+
 # Claude
 .claude/

@@ -1,0 +1,53 @@
+{
+  "model": "google/gemini-3.1-flash-lite-preview",
+  "temperature": 0.7,
+  "seed": 20260502,
+  "n_trials": 36,
+  "n_tasks": 18,
+  "condition_summary": {
+    "direct": {
+      "n": 18,
+      "median_abs_log10_error": 0.0026078690992537477,
+      "mean_abs_log10_error": 0.2586721857291841,
+      "median_factor_error": 1.0060229057086505,
+      "within_25pct_rate": 0.7222222222222222,
+      "mean_confidence_within_25pct": 0.7611111111111112,
+      "within_2x_rate": 0.7777777777777778,
+      "mean_confidence_within_2x": 0.9677777777777777,
+      "interval80_coverage": 0.7222222222222222,
+      "mean_difficulty": 2.388888888888889,
+      "spearman_confidence25_vs_accuracy": 0.07892396123093227,
+      "spearman_p": 0.755578017967876
+    },
+    "reflective": {
+      "n": 18,
+      "median_abs_log10_error": 0.004935938587526062,
+      "mean_abs_log10_error": 0.315224339100338,
+      "median_factor_error": 1.0114302503622072,
+      "within_25pct_rate": 0.6666666666666666,
+      "mean_confidence_within_25pct": 0.6555555555555556,
+      "within_2x_rate": 0.7222222222222222,
+      "mean_confidence_within_2x": 0.9438888888888889,
+      "interval80_coverage": 0.6666666666666666,
+      "mean_difficulty": 2.611111111111111,
+      "spearman_confidence25_vs_accuracy": 0.3592681808000341,
+      "spearman_p": 0.14313086575241446
+    }
+  },
+  "overall": {
+    "median_abs_log10_error": 0.004096952707606697,
+    "median_factor_error": 1.0094782187183393,
+    "within_25pct_rate": 0.6944444444444444,
+    "mean_confidence_within_25pct": 0.7083333333333333,
+    "within_2x_rate": 0.75,
+    "mean_confidence_within_2x": 0.9558333333333333,
+    "interval80_coverage": 0.6944444444444444
+  },
+  "paired_reflection_effect_confidence25": {
+    "mean_reflective_minus_direct_points": -10.555555555555555,
+    "paired_t": -4.134574648121783,
+    "paired_p": 0.00069293348171431
+  },
+  "direct_confidence_count": 18,
+  "reflective_confidence_count": 18
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://autopsych.dev/schemas/study1-track-a-v1.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["estimate", "units", "interval_lower", "interval_upper", "confidence_within_1_order", "confidence_interval_coverage", "reasoning_steps", "final_answer_text"],
+  "properties": {
+    "estimate": {"type": "number", "exclusiveMinimum": 0},
+    "units": {"type": "string", "minLength": 1},
+    "interval_lower": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "interval_upper": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "confidence_within_1_order": {"type": "integer", "minimum": 0, "maximum": 100},
+    "confidence_interval_coverage": {"type": ["integer", "null"], "minimum": 0, "maximum": 100},
+    "reasoning_steps": {"type": ["array", "null"], "items": {"type": "string"}},
+    "final_answer_text": {"type": "string"}
+  }
+}

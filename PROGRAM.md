@@ -1,64 +1,52 @@
-# AutoPsych — Automated Psychology Experiments via LLMs
+# AutoPsych Scientist Operating Manual
 
-Run psychology experiments using LLMs as subjects. You design and run experiments, OpenRouter (via litellm) provides the subject models.
+AutoPsych executes a fixed research protocol; it is not an autonomous question generator during confirmatory work. The Year 1 research plan, preregistrations, and frozen machine-readable protocols control the study.
 
-## Structure
+## Non-negotiable sequence
 
-- `reports/<NAME>/` — One directory per experiment. Keep everything for an experiment here: scripts, data, analysis, writeup.
+1. Freeze and hash the protocol, prompts, schemas, model list, decoding policy, scoring rules, exclusions, and intended trial manifest.
+2. Pass Study 0 before Study 1 confirmatory collection.
+3. Preserve every intended trial, including API errors, refusals, and parse failures.
+4. Analyze from the immutable raw ledger. Never hand-edit raw records.
+5. Separate confirmatory outputs from exploratory analyses and disclose every deviation.
 
-## How It Works
+## Unit of analysis
 
-1. Start with a clear research question.
-2. Write a script that manipulates something (prompt framing, persona, model, temperature, etc.) and measures something in the responses.
-3. Run it against subject models via openrouter. Save raw responses and parsed results.
-4. Analyze and write up findings in a `report.md`.
+A result is indexed to the complete system configuration, not merely a model family. Every record must identify the provider route, exact model/version if exposed, date, system and user prompts, decoding parameters, tools, memory/context state, repetition, item, condition, and retry history.
 
-### Calling subject models
+## Data integrity
 
-```python
-from openrouter import OpenRouter
-import os
+- Build the intended-trial manifest before calls begin.
+- Use deterministic trial IDs and SHA-256 prompt hashes.
+- Store full response text before parsing.
+- Invalid confidence values, reversed intervals, missing fields, and unit mismatches are failures; do not clamp or silently repair them.
+- Record parse failures and refusals as outcomes. Do not drop them.
+- A retry is linked to the same trial ID and reported in the terminal record.
+- Keep unreleased Study 1 items in `data/private/`, which is gitignored. Publish only after collection is complete.
 
-with OpenRouter(api_key=os.getenv("OPENROUTER_API_KEY")) as client:
-    response = client.chat.send(
-        model="openai/gpt-5.2",
-        messages=[
-            {"role": "user", "content": "What is the meaning of life?"}
-        ],
-    )
+## Study 0 gate
 
-    print(response.choices[0].message.content)
+AutoPsych is validated for Year 1 use only if all four preregistered criteria pass:
 
-```
+- synthetic parser/scorer accuracy at least 98%;
+- human-AutoPsych agreement at least .90 on all primary fields;
+- directional replication of at least two of three benchmark phenomena;
+- run-level completeness at least 99%.
 
-## Available Libraries
+Three of four triggers remediation before Study 1. Two or fewer triggers a full pipeline audit.
 
-- `scipy` — Statistical tests (`scipy.stats`)
-- `pandas` — Data manipulation and analysis
-- `numpy` — Numerical computing
-- `matplotlib` — Plotting and figures
-- `statsmodels` — Regression, ANOVA, and advanced statistical models
-- `ruamel.yaml` — YAML config reading/writing
+## Study 1 design boundaries
 
-## Question Design
+- Track A and Track B are distinct designs.
+- Track A uses parameterized Fermi items with supplied quantities plus one or two estimated bridge quantities.
+- Track B must balance stimulus classes 50/50 within every model by format cell.
+- C4 neutral reconsideration and C5 social challenge each begin from an independent C1-type first turn.
+- Platform-recorded turn-1 values, not model restatements, control revision analyses.
 
-LLMs have near-perfect recall of well-known facts (e.g., height of Everest, bones in the human body). Anchoring, framing, and similar cognitive bias experiments will show no effect on these questions because the model is recalling, not estimating.
+## Statistical boundaries
 
-Use **Fermi estimation questions** — questions with no single memorizable answer that force genuine reasoning under uncertainty (e.g., "How many piano tuners are in Chicago?"). These produce real variance in responses, giving experimental manipulations room to work.
+Use the preregistered metrics and models. Calibration and confidence discrimination are not interchangeable. Report Brier metrics, slope/intercept, ECE, AUROC2, and first-order error separately. Cluster-bootstrap by item. Apply the registered FDR and missingness policies. Do not call a model "metacognitive" from fluent confidence language alone.
 
-When working with Fermi estimates, analyze on a **log scale** — estimates often span orders of magnitude, so raw means get dominated by outliers. Report medians alongside means.
+## Pilot status
 
-## Principles
-
-- **Pilot first.** Small N to check prompts and parsing work before scaling up.
-- **Reproducibility.** Pin model IDs, temperature, and prompts. Save raw responses.
-- **LLMs are not humans.** Frame findings as model behavior, not human psychology.
-- **Log everything.** Raw prompts, full responses, model IDs, token counts.
-- **One variable at a time.** Clean designs produce interpretable results.
-
-## Running Scripts
-
-```bash
-uv run python reports/<NAME>/experiment.py
-uv run python main.py
-```
+The existing Gemini report is a historical pilot. It exposed ceiling effects, arithmetic-heavy items, unit errors, and weak confidence discrimination. It may motivate design choices but cannot be pooled with confirmatory Study 1 data.

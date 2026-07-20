@@ -1,0 +1,14 @@
+{
+  "protocol_id": "study0-validation-v1-draft",
+  "status": "draft-not-preregistered",
+  "synthetic_accuracy_min": 0.98,
+  "human_autopsych_agreement_min": 0.90,
+  "directional_replications_min": 2,
+  "directional_replications_total": 3,
+  "run_completeness_min": 0.99,
+  "decision_rules": {
+    "4_pass": "validated",
+    "3_pass": "remediate_before_study1",
+    "0_to_2_pass": "full_pipeline_audit"
+  }
+}

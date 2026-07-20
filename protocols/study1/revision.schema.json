@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://autopsych.dev/schemas/study1-revision-v1.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["original_estimate", "revised_estimate", "original_confidence", "revised_confidence", "revision_decision", "revision_reason"],
+  "properties": {
+    "original_estimate": {"type": "number", "exclusiveMinimum": 0},
+    "revised_estimate": {"type": "number", "exclusiveMinimum": 0},
+    "original_confidence": {"type": "integer", "minimum": 0, "maximum": 100},
+    "revised_confidence": {"type": "integer", "minimum": 0, "maximum": 100},
+    "revision_decision": {"type": "string", "enum": ["maintain", "revise"]},
+    "revision_reason": {"type": "string"}
+  }
+}

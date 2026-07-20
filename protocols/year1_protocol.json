@@ -1,0 +1,81 @@
+{
+  "protocol_id": "machine-psychology-year1-v4-implementation-draft",
+  "status": "draft-not-preregistered",
+  "project_period": {
+    "start": "2026-07-01",
+    "end": "2027-06-30"
+  },
+  "sequence": [
+    "protocol_freeze",
+    "study0_validation",
+    "study1_pilot_and_preregistration",
+    "study1_track_a",
+    "study1_track_b",
+    "locked_analysis",
+    "release"
+  ],
+  "model_scope": {
+    "primary_inference": "six deployed model configurations across two closed-model vendors",
+    "vendors": ["anthropic", "openai"],
+    "general_llm_taxonomy_claims_authorized": false,
+    "external_replication_vendors": ["google", "open-weight"]
+  },
+  "models": [
+    {"provider": "openrouter", "vendor": "anthropic", "model": "anthropic/claude-fable-5", "model_name": "Claude Fable 5", "provider_position": "highest-capability", "parameter_freeze_status": "pending-integration-test"},
+    {"provider": "openrouter", "vendor": "anthropic", "model": "anthropic/claude-opus-4.8", "model_name": "Claude Opus 4.8", "provider_position": "complex-agentic", "parameter_freeze_status": "pending-integration-test"},
+    {"provider": "openrouter", "vendor": "anthropic", "model": "anthropic/claude-sonnet-5", "model_name": "Claude Sonnet 5", "provider_position": "balanced", "parameter_freeze_status": "pending-integration-test"},
+    {"provider": "openrouter", "vendor": "openai", "model": "openai/gpt-5.6-sol", "model_name": "GPT-5.6 Sol", "provider_position": "flagship", "parameter_freeze_status": "pending-integration-test"},
+    {"provider": "openrouter", "vendor": "openai", "model": "openai/gpt-5.6-terra", "model_name": "GPT-5.6 Terra", "provider_position": "balanced", "parameter_freeze_status": "pending-integration-test"},
+    {"provider": "openrouter", "vendor": "openai", "model": "openai/gpt-5.6-luna", "model_name": "GPT-5.6 Luna", "provider_position": "efficient", "parameter_freeze_status": "pending-integration-test"}
+  ],
+  "provider_routing": {
+    "gateway": "openrouter",
+    "concrete_model_slugs_required": true,
+    "latest_aliases_allowed": false,
+    "single_upstream_route_per_model": true,
+    "upstream_route_freeze_status": "pending-integration-test",
+    "fallbacks_allowed": false,
+    "automatic_rerouting_allowed": false,
+    "multi_agent_modes_allowed": false,
+    "pro_modes_allowed": false,
+    "required_response_metadata": [
+      "gateway",
+      "upstream_provider",
+      "requested_model",
+      "returned_model",
+      "request_id"
+    ]
+  },
+  "study0": {
+    "base_items": 300,
+    "repetitions": 3,
+    "calls_per_model_per_repetition": 500,
+    "total_calls": 9000,
+    "benchmarks": {
+      "anchoring": {"items": 100, "conditions": ["low_anchor", "high_anchor"]},
+      "framing": {"items": 100, "conditions": ["gain", "loss"]},
+      "confidence_accuracy": {"items": 100, "conditions": ["confidence"]}
+    }
+  },
+  "study1": {
+    "candidate_track_a_items": 250,
+    "retained_track_a_items": 160,
+    "repetitions": 3,
+    "track_a_calls": 20160,
+    "track_b_calls": 4320,
+    "conditions": ["standard", "forced_interval", "reasoning_scaffold", "neutral_reconsideration", "social_challenge"],
+    "track_b_formats": ["comparison_2afc", "threshold", "validity_check"],
+    "track_b_items_per_format": 80,
+    "track_b_trials_per_model_format_cell": 240
+  },
+  "collection_rules": {
+    "manifest_before_calls": true,
+    "final_items_after_preregistration": true,
+    "model_freeze_days_before_study0": 14,
+    "sentinel_items": 20,
+    "full_raw_response_required": true,
+    "record_api_errors": true,
+    "record_refusals": true,
+    "record_parse_failures": true
+  }
+}

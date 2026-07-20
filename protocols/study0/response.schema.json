@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://autopsych.dev/schemas/study0-response-v1.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["estimate", "units", "confidence"],
+  "properties": {
+    "estimate": {"type": "number", "exclusiveMinimum": 0},
+    "units": {"type": "string", "minLength": 1},
+    "confidence": {"type": "integer", "minimum": 0, "maximum": 100},
+    "risk_choice": {"type": ["string", "null"], "enum": ["safe", "risky", null]},
+    "final_answer_text": {"type": ["string", "null"]}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://autopsych.dev/schemas/study1-track-b-v1.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["choice", "confidence"],
+  "properties": {
+    "choice": {"type": "string", "enum": ["S1", "S2"]},
+    "confidence": {"type": "integer", "minimum": 1, "maximum": 4}
+  }
+}
