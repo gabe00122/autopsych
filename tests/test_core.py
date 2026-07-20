@@ -7,7 +7,7 @@ from pathlib import Path
 
 from autopsych.audit import audit_run, evaluate_study0
 from autopsych.core import ProviderResponse, TrialSpec
-from autopsych.ledger import JsonlLedger, write_manifest
+from autopsych.ledger import JsonlLedger, read_jsonl, write_manifest
 from autopsych.parsing import parse_response
 from autopsych.providers import SequenceProvider
 from autopsych.runner import run_trials
@@ -87,6 +87,84 @@ class InfrastructureTests(unittest.TestCase):
             self.assertEqual(result["completeness"], 1.0)
             self.assertTrue(result["passes_99_percent"])
             self.assertTrue(result["passes_integrity"])
+
+    def test_hundred_call_mock_dry_run_writes_complete_terminal_records(self) -> None:
+        """The core-pipeline acceptance dry run must preserve every mock call."""
+        trials = [
+            TrialSpec(
+                experiment_id="dry-run-100",
+                study="study0",
+                item_id=f"item-{index:03d}",
+                condition="standard",
+                repetition=1,
+                provider="mock",
+                model_id="mock/model",
+                messages=({"role": "user", "content": f"Estimate item {index}."},),
+                response_schema=SCHEMA,
+            )
+            for index in range(1, 101)
+        ]
+        content = json.dumps(
+            {
+                "estimate": 10,
+                "units": "kg",
+                "interval_lower": 5,
+                "interval_upper": 20,
+                "confidence_within_1_order": 75,
+            }
+        )
+        response = ProviderResponse(
+            content=content,
+            model_version="mock-v1",
+            status_code=200,
+            request_id="mock-request",
+            seed=7,
+            system_fingerprint="mock-system-v1",
+        )
+        required_terminal_fields = {
+            "run_id",
+            "trial_id",
+            "model_id",
+            "model_version",
+            "provider",
+            "started_at",
+            "completed_at",
+            "prompt_hash",
+            "messages",
+            "sampling",
+            "api_status_code",
+            "provider_request_id",
+            "seed",
+            "system_fingerprint",
+            "raw_response",
+            "parse_status",
+            "parsed_values",
+            "scoring_results",
+            "error",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / "manifest.json"
+            records_path = root / "records.jsonl"
+            write_manifest(manifest, "dry-run-100", trials, "test-protocol")
+            run_trials(
+                "dry-run-100",
+                trials,
+                SequenceProvider([response] * 100),
+                JsonlLedger(records_path),
+                scorer=lambda _trial, _values: {"dry_run_score": True},
+            )
+            audit = audit_run(manifest, records_path)
+            records = read_jsonl(records_path)
+
+        self.assertEqual(audit["intended"], 100)
+        self.assertEqual(audit["complete"], 100)
+        self.assertEqual(audit["completeness"], 1.0)
+        self.assertTrue(audit["passes_integrity"])
+        self.assertEqual(len(records), 100)
+        self.assertTrue(all(required_terminal_fields <= set(record) for record in records))
+        self.assertTrue(all(record["model_version"] == "mock-v1" for record in records))
+        self.assertTrue(all(record["scoring_results"] == {"dry_run_score": True} for record in records))
 
     def test_manifest_cannot_be_overwritten(self) -> None:
         trial = self._trial()
