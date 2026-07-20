@@ -254,6 +254,23 @@ class SyntheticLibraryTests(unittest.TestCase):
         self.assertEqual(len(generate_cases()), 500)
         self.assertEqual(generate_cases()[0], generate_cases()[0])
 
+    def test_library_covers_required_failure_and_format_categories(self) -> None:
+        cases = generate_cases()
+        texts = [case["text"] for case in cases]
+        self.assertTrue(any("not a number" in text for text in texts))
+        self.assertTrue(any("I cannot estimate" in text for text in texts))
+        self.assertTrue(any("kg·yr⁻¹" in text for text in texts))
+        self.assertTrue(any("Ignore this wrapper" in text for text in texts))
+        self.assertTrue(any(case["expected_status"] == "invalid" and '"estimate"' not in case["text"] for case in cases))
+        self.assertTrue(
+            any(
+                case["expected_status"] == "invalid"
+                and case["text"].startswith('{"estimate": 12, "units": "kg"')
+                and not case["text"].endswith("}")
+                for case in cases
+            )
+        )
+
     def test_library_passes_parser_target(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "cases.jsonl"

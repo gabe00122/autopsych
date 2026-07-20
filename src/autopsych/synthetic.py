@@ -35,7 +35,7 @@ def synthetic_schema() -> dict[str, Any]:
 def generate_cases() -> list[dict[str, Any]]:
     cases: list[dict[str, Any]] = []
     for index in range(500):
-        variant = index % 10
+        variant = index % 11
         base = float(index + 10)
         valid = {
             "estimate": base,
@@ -68,10 +68,13 @@ def generate_cases() -> list[dict[str, Any]]:
             text, expected = json.dumps(valid), "invalid"
         elif variant == 8:
             text, expected = "I cannot estimate this quantity reliably.", "refusal"
-        else:
+        elif variant == 9:
             valid["units"] = "kg·yr⁻¹"
             text = "  \n" + json.dumps(valid, ensure_ascii=False) + "\n  "
             expected = "valid"
+        else:
+            valid["estimate"] = "not a number"
+            text, expected = json.dumps(valid), "invalid"
         cases.append({"case_id": f"synthetic-{index:03d}", "text": text, "expected_status": expected})
     return cases
 

@@ -8,106 +8,106 @@
 {"case_id": "synthetic-007", "text": "{\"estimate\": 17.0, \"units\": \"kg\", \"interval_lower\": 34.0, \"interval_upper\": 8.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-008", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
 {"case_id": "synthetic-009", "text": "  \n{\"estimate\": 19.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 9.5, \"interval_upper\": 38.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-010", "text": "{\"estimate\": 20.0, \"units\": \"kg\", \"interval_lower\": 10.0, \"interval_upper\": 40.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-011", "text": "{\"estimate\": 21.125, \"units\": \"kg\", \"interval_lower\": 10.5, \"interval_upper\": 42.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-012", "text": "{\"estimate\": \"2.200e+01\", \"units\": \"kg\", \"interval_lower\": 11.0, \"interval_upper\": 44.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-013", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"23,000 kg\", \"units\": \"kg\", \"interval_lower\": 11.5, \"interval_upper\": 46.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-014", "text": "{\"units\": \"kg\", \"interval_lower\": 12.0, \"interval_upper\": 48.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-015", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-016", "text": "{\"estimate\": 26.0, \"units\": \"kg\", \"interval_lower\": 13.0, \"interval_upper\": 52.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-017", "text": "{\"estimate\": 27.0, \"units\": \"kg\", \"interval_lower\": 54.0, \"interval_upper\": 13.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-018", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-019", "text": "  \n{\"estimate\": 29.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 14.5, \"interval_upper\": 58.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-020", "text": "{\"estimate\": 30.0, \"units\": \"kg\", \"interval_lower\": 15.0, \"interval_upper\": 60.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-021", "text": "{\"estimate\": 31.125, \"units\": \"kg\", \"interval_lower\": 15.5, \"interval_upper\": 62.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-022", "text": "{\"estimate\": \"3.200e+01\", \"units\": \"kg\", \"interval_lower\": 16.0, \"interval_upper\": 64.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-023", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"33,000 kg\", \"units\": \"kg\", \"interval_lower\": 16.5, \"interval_upper\": 66.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-024", "text": "{\"units\": \"kg\", \"interval_lower\": 17.0, \"interval_upper\": 68.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-025", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-026", "text": "{\"estimate\": 36.0, \"units\": \"kg\", \"interval_lower\": 18.0, \"interval_upper\": 72.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-027", "text": "{\"estimate\": 37.0, \"units\": \"kg\", \"interval_lower\": 74.0, \"interval_upper\": 18.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-028", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-029", "text": "  \n{\"estimate\": 39.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 19.5, \"interval_upper\": 78.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-030", "text": "{\"estimate\": 40.0, \"units\": \"kg\", \"interval_lower\": 20.0, \"interval_upper\": 80.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-031", "text": "{\"estimate\": 41.125, \"units\": \"kg\", \"interval_lower\": 20.5, \"interval_upper\": 82.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-032", "text": "{\"estimate\": \"4.200e+01\", \"units\": \"kg\", \"interval_lower\": 21.0, \"interval_upper\": 84.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-033", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"43,000 kg\", \"units\": \"kg\", \"interval_lower\": 21.5, \"interval_upper\": 86.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-034", "text": "{\"units\": \"kg\", \"interval_lower\": 22.0, \"interval_upper\": 88.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-035", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-036", "text": "{\"estimate\": 46.0, \"units\": \"kg\", \"interval_lower\": 23.0, \"interval_upper\": 92.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-037", "text": "{\"estimate\": 47.0, \"units\": \"kg\", \"interval_lower\": 94.0, \"interval_upper\": 23.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-038", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-039", "text": "  \n{\"estimate\": 49.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 24.5, \"interval_upper\": 98.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-040", "text": "{\"estimate\": 50.0, \"units\": \"kg\", \"interval_lower\": 25.0, \"interval_upper\": 100.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-041", "text": "{\"estimate\": 51.125, \"units\": \"kg\", \"interval_lower\": 25.5, \"interval_upper\": 102.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-042", "text": "{\"estimate\": \"5.200e+01\", \"units\": \"kg\", \"interval_lower\": 26.0, \"interval_upper\": 104.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-043", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"53,000 kg\", \"units\": \"kg\", \"interval_lower\": 26.5, \"interval_upper\": 106.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-044", "text": "{\"units\": \"kg\", \"interval_lower\": 27.0, \"interval_upper\": 108.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-045", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-046", "text": "{\"estimate\": 56.0, \"units\": \"kg\", \"interval_lower\": 28.0, \"interval_upper\": 112.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-047", "text": "{\"estimate\": 57.0, \"units\": \"kg\", \"interval_lower\": 114.0, \"interval_upper\": 28.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-048", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-049", "text": "  \n{\"estimate\": 59.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 29.5, \"interval_upper\": 118.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-050", "text": "{\"estimate\": 60.0, \"units\": \"kg\", \"interval_lower\": 30.0, \"interval_upper\": 120.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-051", "text": "{\"estimate\": 61.125, \"units\": \"kg\", \"interval_lower\": 30.5, \"interval_upper\": 122.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-052", "text": "{\"estimate\": \"6.200e+01\", \"units\": \"kg\", \"interval_lower\": 31.0, \"interval_upper\": 124.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-053", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"63,000 kg\", \"units\": \"kg\", \"interval_lower\": 31.5, \"interval_upper\": 126.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-054", "text": "{\"units\": \"kg\", \"interval_lower\": 32.0, \"interval_upper\": 128.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-055", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-056", "text": "{\"estimate\": 66.0, \"units\": \"kg\", \"interval_lower\": 33.0, \"interval_upper\": 132.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-057", "text": "{\"estimate\": 67.0, \"units\": \"kg\", \"interval_lower\": 134.0, \"interval_upper\": 33.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-058", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-059", "text": "  \n{\"estimate\": 69.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 34.5, \"interval_upper\": 138.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-060", "text": "{\"estimate\": 70.0, \"units\": \"kg\", \"interval_lower\": 35.0, \"interval_upper\": 140.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-061", "text": "{\"estimate\": 71.125, \"units\": \"kg\", \"interval_lower\": 35.5, \"interval_upper\": 142.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-062", "text": "{\"estimate\": \"7.200e+01\", \"units\": \"kg\", \"interval_lower\": 36.0, \"interval_upper\": 144.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-063", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"73,000 kg\", \"units\": \"kg\", \"interval_lower\": 36.5, \"interval_upper\": 146.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-064", "text": "{\"units\": \"kg\", \"interval_lower\": 37.0, \"interval_upper\": 148.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-065", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-066", "text": "{\"estimate\": 76.0, \"units\": \"kg\", \"interval_lower\": 38.0, \"interval_upper\": 152.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-067", "text": "{\"estimate\": 77.0, \"units\": \"kg\", \"interval_lower\": 154.0, \"interval_upper\": 38.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-068", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-069", "text": "  \n{\"estimate\": 79.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 39.5, \"interval_upper\": 158.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-070", "text": "{\"estimate\": 80.0, \"units\": \"kg\", \"interval_lower\": 40.0, \"interval_upper\": 160.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-071", "text": "{\"estimate\": 81.125, \"units\": \"kg\", \"interval_lower\": 40.5, \"interval_upper\": 162.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-072", "text": "{\"estimate\": \"8.200e+01\", \"units\": \"kg\", \"interval_lower\": 41.0, \"interval_upper\": 164.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-073", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"83,000 kg\", \"units\": \"kg\", \"interval_lower\": 41.5, \"interval_upper\": 166.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-074", "text": "{\"units\": \"kg\", \"interval_lower\": 42.0, \"interval_upper\": 168.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-075", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-076", "text": "{\"estimate\": 86.0, \"units\": \"kg\", \"interval_lower\": 43.0, \"interval_upper\": 172.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-077", "text": "{\"estimate\": 87.0, \"units\": \"kg\", \"interval_lower\": 174.0, \"interval_upper\": 43.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-078", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-079", "text": "  \n{\"estimate\": 89.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 44.5, \"interval_upper\": 178.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-080", "text": "{\"estimate\": 90.0, \"units\": \"kg\", \"interval_lower\": 45.0, \"interval_upper\": 180.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-081", "text": "{\"estimate\": 91.125, \"units\": \"kg\", \"interval_lower\": 45.5, \"interval_upper\": 182.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-082", "text": "{\"estimate\": \"9.200e+01\", \"units\": \"kg\", \"interval_lower\": 46.0, \"interval_upper\": 184.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-083", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"93,000 kg\", \"units\": \"kg\", \"interval_lower\": 46.5, \"interval_upper\": 186.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-084", "text": "{\"units\": \"kg\", \"interval_lower\": 47.0, \"interval_upper\": 188.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-085", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-086", "text": "{\"estimate\": 96.0, \"units\": \"kg\", \"interval_lower\": 48.0, \"interval_upper\": 192.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-087", "text": "{\"estimate\": 97.0, \"units\": \"kg\", \"interval_lower\": 194.0, \"interval_upper\": 48.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-088", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-089", "text": "  \n{\"estimate\": 99.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 49.5, \"interval_upper\": 198.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-090", "text": "{\"estimate\": 100.0, \"units\": \"kg\", \"interval_lower\": 50.0, \"interval_upper\": 200.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-091", "text": "{\"estimate\": 101.125, \"units\": \"kg\", \"interval_lower\": 50.5, \"interval_upper\": 202.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-092", "text": "{\"estimate\": \"1.020e+02\", \"units\": \"kg\", \"interval_lower\": 51.0, \"interval_upper\": 204.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-093", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"103,000 kg\", \"units\": \"kg\", \"interval_lower\": 51.5, \"interval_upper\": 206.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-094", "text": "{\"units\": \"kg\", \"interval_lower\": 52.0, \"interval_upper\": 208.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-095", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-096", "text": "{\"estimate\": 106.0, \"units\": \"kg\", \"interval_lower\": 53.0, \"interval_upper\": 212.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-097", "text": "{\"estimate\": 107.0, \"units\": \"kg\", \"interval_lower\": 214.0, \"interval_upper\": 53.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-098", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-099", "text": "  \n{\"estimate\": 109.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 54.5, \"interval_upper\": 218.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-100", "text": "{\"estimate\": 110.0, \"units\": \"kg\", \"interval_lower\": 55.0, \"interval_upper\": 220.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-101", "text": "{\"estimate\": 111.125, \"units\": \"kg\", \"interval_lower\": 55.5, \"interval_upper\": 222.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-102", "text": "{\"estimate\": \"1.120e+02\", \"units\": \"kg\", \"interval_lower\": 56.0, \"interval_upper\": 224.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-103", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"113,000 kg\", \"units\": \"kg\", \"interval_lower\": 56.5, \"interval_upper\": 226.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-104", "text": "{\"units\": \"kg\", \"interval_lower\": 57.0, \"interval_upper\": 228.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-105", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-106", "text": "{\"estimate\": 116.0, \"units\": \"kg\", \"interval_lower\": 58.0, \"interval_upper\": 232.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-107", "text": "{\"estimate\": 117.0, \"units\": \"kg\", \"interval_lower\": 234.0, \"interval_upper\": 58.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-108", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-109", "text": "  \n{\"estimate\": 119.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 59.5, \"interval_upper\": 238.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-010", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 10.0, \"interval_upper\": 40.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-011", "text": "{\"estimate\": 21.0, \"units\": \"kg\", \"interval_lower\": 10.5, \"interval_upper\": 42.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-012", "text": "{\"estimate\": 22.125, \"units\": \"kg\", \"interval_lower\": 11.0, \"interval_upper\": 44.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-013", "text": "{\"estimate\": \"2.300e+01\", \"units\": \"kg\", \"interval_lower\": 11.5, \"interval_upper\": 46.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-014", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"24,000 kg\", \"units\": \"kg\", \"interval_lower\": 12.0, \"interval_upper\": 48.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-015", "text": "{\"units\": \"kg\", \"interval_lower\": 12.5, \"interval_upper\": 50.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-016", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-017", "text": "{\"estimate\": 27.0, \"units\": \"kg\", \"interval_lower\": 13.5, \"interval_upper\": 54.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-018", "text": "{\"estimate\": 28.0, \"units\": \"kg\", \"interval_lower\": 56.0, \"interval_upper\": 14.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-019", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-020", "text": "  \n{\"estimate\": 30.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 15.0, \"interval_upper\": 60.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-021", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 15.5, \"interval_upper\": 62.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-022", "text": "{\"estimate\": 32.0, \"units\": \"kg\", \"interval_lower\": 16.0, \"interval_upper\": 64.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-023", "text": "{\"estimate\": 33.125, \"units\": \"kg\", \"interval_lower\": 16.5, \"interval_upper\": 66.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-024", "text": "{\"estimate\": \"3.400e+01\", \"units\": \"kg\", \"interval_lower\": 17.0, \"interval_upper\": 68.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-025", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"35,000 kg\", \"units\": \"kg\", \"interval_lower\": 17.5, \"interval_upper\": 70.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-026", "text": "{\"units\": \"kg\", \"interval_lower\": 18.0, \"interval_upper\": 72.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-027", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-028", "text": "{\"estimate\": 38.0, \"units\": \"kg\", \"interval_lower\": 19.0, \"interval_upper\": 76.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-029", "text": "{\"estimate\": 39.0, \"units\": \"kg\", \"interval_lower\": 78.0, \"interval_upper\": 19.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-030", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-031", "text": "  \n{\"estimate\": 41.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 20.5, \"interval_upper\": 82.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-032", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 21.0, \"interval_upper\": 84.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-033", "text": "{\"estimate\": 43.0, \"units\": \"kg\", \"interval_lower\": 21.5, \"interval_upper\": 86.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-034", "text": "{\"estimate\": 44.125, \"units\": \"kg\", \"interval_lower\": 22.0, \"interval_upper\": 88.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-035", "text": "{\"estimate\": \"4.500e+01\", \"units\": \"kg\", \"interval_lower\": 22.5, \"interval_upper\": 90.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-036", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"46,000 kg\", \"units\": \"kg\", \"interval_lower\": 23.0, \"interval_upper\": 92.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-037", "text": "{\"units\": \"kg\", \"interval_lower\": 23.5, \"interval_upper\": 94.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-038", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-039", "text": "{\"estimate\": 49.0, \"units\": \"kg\", \"interval_lower\": 24.5, \"interval_upper\": 98.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-040", "text": "{\"estimate\": 50.0, \"units\": \"kg\", \"interval_lower\": 100.0, \"interval_upper\": 25.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-041", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-042", "text": "  \n{\"estimate\": 52.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 26.0, \"interval_upper\": 104.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-043", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 26.5, \"interval_upper\": 106.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-044", "text": "{\"estimate\": 54.0, \"units\": \"kg\", \"interval_lower\": 27.0, \"interval_upper\": 108.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-045", "text": "{\"estimate\": 55.125, \"units\": \"kg\", \"interval_lower\": 27.5, \"interval_upper\": 110.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-046", "text": "{\"estimate\": \"5.600e+01\", \"units\": \"kg\", \"interval_lower\": 28.0, \"interval_upper\": 112.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-047", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"57,000 kg\", \"units\": \"kg\", \"interval_lower\": 28.5, \"interval_upper\": 114.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-048", "text": "{\"units\": \"kg\", \"interval_lower\": 29.0, \"interval_upper\": 116.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-049", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-050", "text": "{\"estimate\": 60.0, \"units\": \"kg\", \"interval_lower\": 30.0, \"interval_upper\": 120.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-051", "text": "{\"estimate\": 61.0, \"units\": \"kg\", \"interval_lower\": 122.0, \"interval_upper\": 30.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-052", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-053", "text": "  \n{\"estimate\": 63.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 31.5, \"interval_upper\": 126.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-054", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 32.0, \"interval_upper\": 128.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-055", "text": "{\"estimate\": 65.0, \"units\": \"kg\", \"interval_lower\": 32.5, \"interval_upper\": 130.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-056", "text": "{\"estimate\": 66.125, \"units\": \"kg\", \"interval_lower\": 33.0, \"interval_upper\": 132.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-057", "text": "{\"estimate\": \"6.700e+01\", \"units\": \"kg\", \"interval_lower\": 33.5, \"interval_upper\": 134.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-058", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"68,000 kg\", \"units\": \"kg\", \"interval_lower\": 34.0, \"interval_upper\": 136.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-059", "text": "{\"units\": \"kg\", \"interval_lower\": 34.5, \"interval_upper\": 138.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-060", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-061", "text": "{\"estimate\": 71.0, \"units\": \"kg\", \"interval_lower\": 35.5, \"interval_upper\": 142.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-062", "text": "{\"estimate\": 72.0, \"units\": \"kg\", \"interval_lower\": 144.0, \"interval_upper\": 36.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-063", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-064", "text": "  \n{\"estimate\": 74.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 37.0, \"interval_upper\": 148.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-065", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 37.5, \"interval_upper\": 150.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-066", "text": "{\"estimate\": 76.0, \"units\": \"kg\", \"interval_lower\": 38.0, \"interval_upper\": 152.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-067", "text": "{\"estimate\": 77.125, \"units\": \"kg\", \"interval_lower\": 38.5, \"interval_upper\": 154.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-068", "text": "{\"estimate\": \"7.800e+01\", \"units\": \"kg\", \"interval_lower\": 39.0, \"interval_upper\": 156.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-069", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"79,000 kg\", \"units\": \"kg\", \"interval_lower\": 39.5, \"interval_upper\": 158.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-070", "text": "{\"units\": \"kg\", \"interval_lower\": 40.0, \"interval_upper\": 160.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-071", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-072", "text": "{\"estimate\": 82.0, \"units\": \"kg\", \"interval_lower\": 41.0, \"interval_upper\": 164.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-073", "text": "{\"estimate\": 83.0, \"units\": \"kg\", \"interval_lower\": 166.0, \"interval_upper\": 41.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-074", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-075", "text": "  \n{\"estimate\": 85.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 42.5, \"interval_upper\": 170.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-076", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 43.0, \"interval_upper\": 172.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-077", "text": "{\"estimate\": 87.0, \"units\": \"kg\", \"interval_lower\": 43.5, \"interval_upper\": 174.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-078", "text": "{\"estimate\": 88.125, \"units\": \"kg\", \"interval_lower\": 44.0, \"interval_upper\": 176.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-079", "text": "{\"estimate\": \"8.900e+01\", \"units\": \"kg\", \"interval_lower\": 44.5, \"interval_upper\": 178.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-080", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"90,000 kg\", \"units\": \"kg\", \"interval_lower\": 45.0, \"interval_upper\": 180.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-081", "text": "{\"units\": \"kg\", \"interval_lower\": 45.5, \"interval_upper\": 182.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-082", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-083", "text": "{\"estimate\": 93.0, \"units\": \"kg\", \"interval_lower\": 46.5, \"interval_upper\": 186.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-084", "text": "{\"estimate\": 94.0, \"units\": \"kg\", \"interval_lower\": 188.0, \"interval_upper\": 47.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-085", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-086", "text": "  \n{\"estimate\": 96.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 48.0, \"interval_upper\": 192.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-087", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 48.5, \"interval_upper\": 194.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-088", "text": "{\"estimate\": 98.0, \"units\": \"kg\", \"interval_lower\": 49.0, \"interval_upper\": 196.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-089", "text": "{\"estimate\": 99.125, \"units\": \"kg\", \"interval_lower\": 49.5, \"interval_upper\": 198.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-090", "text": "{\"estimate\": \"1.000e+02\", \"units\": \"kg\", \"interval_lower\": 50.0, \"interval_upper\": 200.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-091", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"101,000 kg\", \"units\": \"kg\", \"interval_lower\": 50.5, \"interval_upper\": 202.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-092", "text": "{\"units\": \"kg\", \"interval_lower\": 51.0, \"interval_upper\": 204.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-093", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-094", "text": "{\"estimate\": 104.0, \"units\": \"kg\", \"interval_lower\": 52.0, \"interval_upper\": 208.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-095", "text": "{\"estimate\": 105.0, \"units\": \"kg\", \"interval_lower\": 210.0, \"interval_upper\": 52.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-096", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-097", "text": "  \n{\"estimate\": 107.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 53.5, \"interval_upper\": 214.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-098", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 54.0, \"interval_upper\": 216.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-099", "text": "{\"estimate\": 109.0, \"units\": \"kg\", \"interval_lower\": 54.5, \"interval_upper\": 218.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-100", "text": "{\"estimate\": 110.125, \"units\": \"kg\", \"interval_lower\": 55.0, \"interval_upper\": 220.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-101", "text": "{\"estimate\": \"1.110e+02\", \"units\": \"kg\", \"interval_lower\": 55.5, \"interval_upper\": 222.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-102", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"112,000 kg\", \"units\": \"kg\", \"interval_lower\": 56.0, \"interval_upper\": 224.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-103", "text": "{\"units\": \"kg\", \"interval_lower\": 56.5, \"interval_upper\": 226.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-104", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-105", "text": "{\"estimate\": 115.0, \"units\": \"kg\", \"interval_lower\": 57.5, \"interval_upper\": 230.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-106", "text": "{\"estimate\": 116.0, \"units\": \"kg\", \"interval_lower\": 232.0, \"interval_upper\": 58.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-107", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-108", "text": "  \n{\"estimate\": 118.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 59.0, \"interval_upper\": 236.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-109", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 59.5, \"interval_upper\": 238.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-110", "text": "{\"estimate\": 120.0, \"units\": \"kg\", \"interval_lower\": 60.0, \"interval_upper\": 240.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-111", "text": "{\"estimate\": 121.125, \"units\": \"kg\", \"interval_lower\": 60.5, \"interval_upper\": 242.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-112", "text": "{\"estimate\": \"1.220e+02\", \"units\": \"kg\", \"interval_lower\": 61.0, \"interval_upper\": 244.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
@@ -118,106 +118,106 @@
 {"case_id": "synthetic-117", "text": "{\"estimate\": 127.0, \"units\": \"kg\", \"interval_lower\": 254.0, \"interval_upper\": 63.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-118", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
 {"case_id": "synthetic-119", "text": "  \n{\"estimate\": 129.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 64.5, \"interval_upper\": 258.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-120", "text": "{\"estimate\": 130.0, \"units\": \"kg\", \"interval_lower\": 65.0, \"interval_upper\": 260.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-121", "text": "{\"estimate\": 131.125, \"units\": \"kg\", \"interval_lower\": 65.5, \"interval_upper\": 262.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-122", "text": "{\"estimate\": \"1.320e+02\", \"units\": \"kg\", \"interval_lower\": 66.0, \"interval_upper\": 264.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-123", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"133,000 kg\", \"units\": \"kg\", \"interval_lower\": 66.5, \"interval_upper\": 266.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-124", "text": "{\"units\": \"kg\", \"interval_lower\": 67.0, \"interval_upper\": 268.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-125", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-126", "text": "{\"estimate\": 136.0, \"units\": \"kg\", \"interval_lower\": 68.0, \"interval_upper\": 272.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-127", "text": "{\"estimate\": 137.0, \"units\": \"kg\", \"interval_lower\": 274.0, \"interval_upper\": 68.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-128", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-129", "text": "  \n{\"estimate\": 139.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 69.5, \"interval_upper\": 278.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-130", "text": "{\"estimate\": 140.0, \"units\": \"kg\", \"interval_lower\": 70.0, \"interval_upper\": 280.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-131", "text": "{\"estimate\": 141.125, \"units\": \"kg\", \"interval_lower\": 70.5, \"interval_upper\": 282.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-132", "text": "{\"estimate\": \"1.420e+02\", \"units\": \"kg\", \"interval_lower\": 71.0, \"interval_upper\": 284.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-133", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"143,000 kg\", \"units\": \"kg\", \"interval_lower\": 71.5, \"interval_upper\": 286.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-134", "text": "{\"units\": \"kg\", \"interval_lower\": 72.0, \"interval_upper\": 288.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-135", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-136", "text": "{\"estimate\": 146.0, \"units\": \"kg\", \"interval_lower\": 73.0, \"interval_upper\": 292.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-137", "text": "{\"estimate\": 147.0, \"units\": \"kg\", \"interval_lower\": 294.0, \"interval_upper\": 73.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-138", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-139", "text": "  \n{\"estimate\": 149.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 74.5, \"interval_upper\": 298.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-140", "text": "{\"estimate\": 150.0, \"units\": \"kg\", \"interval_lower\": 75.0, \"interval_upper\": 300.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-141", "text": "{\"estimate\": 151.125, \"units\": \"kg\", \"interval_lower\": 75.5, \"interval_upper\": 302.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-142", "text": "{\"estimate\": \"1.520e+02\", \"units\": \"kg\", \"interval_lower\": 76.0, \"interval_upper\": 304.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-143", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"153,000 kg\", \"units\": \"kg\", \"interval_lower\": 76.5, \"interval_upper\": 306.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-144", "text": "{\"units\": \"kg\", \"interval_lower\": 77.0, \"interval_upper\": 308.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-145", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-146", "text": "{\"estimate\": 156.0, \"units\": \"kg\", \"interval_lower\": 78.0, \"interval_upper\": 312.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-147", "text": "{\"estimate\": 157.0, \"units\": \"kg\", \"interval_lower\": 314.0, \"interval_upper\": 78.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-148", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-149", "text": "  \n{\"estimate\": 159.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 79.5, \"interval_upper\": 318.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-150", "text": "{\"estimate\": 160.0, \"units\": \"kg\", \"interval_lower\": 80.0, \"interval_upper\": 320.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-151", "text": "{\"estimate\": 161.125, \"units\": \"kg\", \"interval_lower\": 80.5, \"interval_upper\": 322.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-152", "text": "{\"estimate\": \"1.620e+02\", \"units\": \"kg\", \"interval_lower\": 81.0, \"interval_upper\": 324.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-153", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"163,000 kg\", \"units\": \"kg\", \"interval_lower\": 81.5, \"interval_upper\": 326.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-154", "text": "{\"units\": \"kg\", \"interval_lower\": 82.0, \"interval_upper\": 328.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-155", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-156", "text": "{\"estimate\": 166.0, \"units\": \"kg\", \"interval_lower\": 83.0, \"interval_upper\": 332.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-157", "text": "{\"estimate\": 167.0, \"units\": \"kg\", \"interval_lower\": 334.0, \"interval_upper\": 83.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-158", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-159", "text": "  \n{\"estimate\": 169.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 84.5, \"interval_upper\": 338.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-160", "text": "{\"estimate\": 170.0, \"units\": \"kg\", \"interval_lower\": 85.0, \"interval_upper\": 340.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-161", "text": "{\"estimate\": 171.125, \"units\": \"kg\", \"interval_lower\": 85.5, \"interval_upper\": 342.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-162", "text": "{\"estimate\": \"1.720e+02\", \"units\": \"kg\", \"interval_lower\": 86.0, \"interval_upper\": 344.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-163", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"173,000 kg\", \"units\": \"kg\", \"interval_lower\": 86.5, \"interval_upper\": 346.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-164", "text": "{\"units\": \"kg\", \"interval_lower\": 87.0, \"interval_upper\": 348.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-165", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-166", "text": "{\"estimate\": 176.0, \"units\": \"kg\", \"interval_lower\": 88.0, \"interval_upper\": 352.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-167", "text": "{\"estimate\": 177.0, \"units\": \"kg\", \"interval_lower\": 354.0, \"interval_upper\": 88.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-168", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-169", "text": "  \n{\"estimate\": 179.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 89.5, \"interval_upper\": 358.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-170", "text": "{\"estimate\": 180.0, \"units\": \"kg\", \"interval_lower\": 90.0, \"interval_upper\": 360.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-171", "text": "{\"estimate\": 181.125, \"units\": \"kg\", \"interval_lower\": 90.5, \"interval_upper\": 362.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-172", "text": "{\"estimate\": \"1.820e+02\", \"units\": \"kg\", \"interval_lower\": 91.0, \"interval_upper\": 364.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-173", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"183,000 kg\", \"units\": \"kg\", \"interval_lower\": 91.5, \"interval_upper\": 366.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-174", "text": "{\"units\": \"kg\", \"interval_lower\": 92.0, \"interval_upper\": 368.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-175", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-176", "text": "{\"estimate\": 186.0, \"units\": \"kg\", \"interval_lower\": 93.0, \"interval_upper\": 372.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-177", "text": "{\"estimate\": 187.0, \"units\": \"kg\", \"interval_lower\": 374.0, \"interval_upper\": 93.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-178", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-179", "text": "  \n{\"estimate\": 189.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 94.5, \"interval_upper\": 378.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-180", "text": "{\"estimate\": 190.0, \"units\": \"kg\", \"interval_lower\": 95.0, \"interval_upper\": 380.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-181", "text": "{\"estimate\": 191.125, \"units\": \"kg\", \"interval_lower\": 95.5, \"interval_upper\": 382.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-182", "text": "{\"estimate\": \"1.920e+02\", \"units\": \"kg\", \"interval_lower\": 96.0, \"interval_upper\": 384.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-183", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"193,000 kg\", \"units\": \"kg\", \"interval_lower\": 96.5, \"interval_upper\": 386.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-184", "text": "{\"units\": \"kg\", \"interval_lower\": 97.0, \"interval_upper\": 388.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-185", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-186", "text": "{\"estimate\": 196.0, \"units\": \"kg\", \"interval_lower\": 98.0, \"interval_upper\": 392.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-187", "text": "{\"estimate\": 197.0, \"units\": \"kg\", \"interval_lower\": 394.0, \"interval_upper\": 98.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-188", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-189", "text": "  \n{\"estimate\": 199.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 99.5, \"interval_upper\": 398.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-190", "text": "{\"estimate\": 200.0, \"units\": \"kg\", \"interval_lower\": 100.0, \"interval_upper\": 400.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-191", "text": "{\"estimate\": 201.125, \"units\": \"kg\", \"interval_lower\": 100.5, \"interval_upper\": 402.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-192", "text": "{\"estimate\": \"2.020e+02\", \"units\": \"kg\", \"interval_lower\": 101.0, \"interval_upper\": 404.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-193", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"203,000 kg\", \"units\": \"kg\", \"interval_lower\": 101.5, \"interval_upper\": 406.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-194", "text": "{\"units\": \"kg\", \"interval_lower\": 102.0, \"interval_upper\": 408.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-195", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-196", "text": "{\"estimate\": 206.0, \"units\": \"kg\", \"interval_lower\": 103.0, \"interval_upper\": 412.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-197", "text": "{\"estimate\": 207.0, \"units\": \"kg\", \"interval_lower\": 414.0, \"interval_upper\": 103.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-198", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-199", "text": "  \n{\"estimate\": 209.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 104.5, \"interval_upper\": 418.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-200", "text": "{\"estimate\": 210.0, \"units\": \"kg\", \"interval_lower\": 105.0, \"interval_upper\": 420.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-201", "text": "{\"estimate\": 211.125, \"units\": \"kg\", \"interval_lower\": 105.5, \"interval_upper\": 422.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-202", "text": "{\"estimate\": \"2.120e+02\", \"units\": \"kg\", \"interval_lower\": 106.0, \"interval_upper\": 424.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-203", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"213,000 kg\", \"units\": \"kg\", \"interval_lower\": 106.5, \"interval_upper\": 426.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-204", "text": "{\"units\": \"kg\", \"interval_lower\": 107.0, \"interval_upper\": 428.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-205", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-206", "text": "{\"estimate\": 216.0, \"units\": \"kg\", \"interval_lower\": 108.0, \"interval_upper\": 432.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-207", "text": "{\"estimate\": 217.0, \"units\": \"kg\", \"interval_lower\": 434.0, \"interval_upper\": 108.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-208", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-209", "text": "  \n{\"estimate\": 219.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 109.5, \"interval_upper\": 438.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-210", "text": "{\"estimate\": 220.0, \"units\": \"kg\", \"interval_lower\": 110.0, \"interval_upper\": 440.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-211", "text": "{\"estimate\": 221.125, \"units\": \"kg\", \"interval_lower\": 110.5, \"interval_upper\": 442.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-212", "text": "{\"estimate\": \"2.220e+02\", \"units\": \"kg\", \"interval_lower\": 111.0, \"interval_upper\": 444.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-213", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"223,000 kg\", \"units\": \"kg\", \"interval_lower\": 111.5, \"interval_upper\": 446.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-214", "text": "{\"units\": \"kg\", \"interval_lower\": 112.0, \"interval_upper\": 448.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-215", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-216", "text": "{\"estimate\": 226.0, \"units\": \"kg\", \"interval_lower\": 113.0, \"interval_upper\": 452.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-217", "text": "{\"estimate\": 227.0, \"units\": \"kg\", \"interval_lower\": 454.0, \"interval_upper\": 113.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-218", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-219", "text": "  \n{\"estimate\": 229.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 114.5, \"interval_upper\": 458.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-120", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 65.0, \"interval_upper\": 260.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-121", "text": "{\"estimate\": 131.0, \"units\": \"kg\", \"interval_lower\": 65.5, \"interval_upper\": 262.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-122", "text": "{\"estimate\": 132.125, \"units\": \"kg\", \"interval_lower\": 66.0, \"interval_upper\": 264.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-123", "text": "{\"estimate\": \"1.330e+02\", \"units\": \"kg\", \"interval_lower\": 66.5, \"interval_upper\": 266.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-124", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"134,000 kg\", \"units\": \"kg\", \"interval_lower\": 67.0, \"interval_upper\": 268.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-125", "text": "{\"units\": \"kg\", \"interval_lower\": 67.5, \"interval_upper\": 270.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-126", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-127", "text": "{\"estimate\": 137.0, \"units\": \"kg\", \"interval_lower\": 68.5, \"interval_upper\": 274.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-128", "text": "{\"estimate\": 138.0, \"units\": \"kg\", \"interval_lower\": 276.0, \"interval_upper\": 69.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-129", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-130", "text": "  \n{\"estimate\": 140.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 70.0, \"interval_upper\": 280.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-131", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 70.5, \"interval_upper\": 282.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-132", "text": "{\"estimate\": 142.0, \"units\": \"kg\", \"interval_lower\": 71.0, \"interval_upper\": 284.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-133", "text": "{\"estimate\": 143.125, \"units\": \"kg\", \"interval_lower\": 71.5, \"interval_upper\": 286.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-134", "text": "{\"estimate\": \"1.440e+02\", \"units\": \"kg\", \"interval_lower\": 72.0, \"interval_upper\": 288.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-135", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"145,000 kg\", \"units\": \"kg\", \"interval_lower\": 72.5, \"interval_upper\": 290.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-136", "text": "{\"units\": \"kg\", \"interval_lower\": 73.0, \"interval_upper\": 292.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-137", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-138", "text": "{\"estimate\": 148.0, \"units\": \"kg\", \"interval_lower\": 74.0, \"interval_upper\": 296.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-139", "text": "{\"estimate\": 149.0, \"units\": \"kg\", \"interval_lower\": 298.0, \"interval_upper\": 74.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-140", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-141", "text": "  \n{\"estimate\": 151.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 75.5, \"interval_upper\": 302.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-142", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 76.0, \"interval_upper\": 304.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-143", "text": "{\"estimate\": 153.0, \"units\": \"kg\", \"interval_lower\": 76.5, \"interval_upper\": 306.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-144", "text": "{\"estimate\": 154.125, \"units\": \"kg\", \"interval_lower\": 77.0, \"interval_upper\": 308.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-145", "text": "{\"estimate\": \"1.550e+02\", \"units\": \"kg\", \"interval_lower\": 77.5, \"interval_upper\": 310.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-146", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"156,000 kg\", \"units\": \"kg\", \"interval_lower\": 78.0, \"interval_upper\": 312.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-147", "text": "{\"units\": \"kg\", \"interval_lower\": 78.5, \"interval_upper\": 314.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-148", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-149", "text": "{\"estimate\": 159.0, \"units\": \"kg\", \"interval_lower\": 79.5, \"interval_upper\": 318.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-150", "text": "{\"estimate\": 160.0, \"units\": \"kg\", \"interval_lower\": 320.0, \"interval_upper\": 80.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-151", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-152", "text": "  \n{\"estimate\": 162.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 81.0, \"interval_upper\": 324.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-153", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 81.5, \"interval_upper\": 326.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-154", "text": "{\"estimate\": 164.0, \"units\": \"kg\", \"interval_lower\": 82.0, \"interval_upper\": 328.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-155", "text": "{\"estimate\": 165.125, \"units\": \"kg\", \"interval_lower\": 82.5, \"interval_upper\": 330.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-156", "text": "{\"estimate\": \"1.660e+02\", \"units\": \"kg\", \"interval_lower\": 83.0, \"interval_upper\": 332.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-157", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"167,000 kg\", \"units\": \"kg\", \"interval_lower\": 83.5, \"interval_upper\": 334.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-158", "text": "{\"units\": \"kg\", \"interval_lower\": 84.0, \"interval_upper\": 336.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-159", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-160", "text": "{\"estimate\": 170.0, \"units\": \"kg\", \"interval_lower\": 85.0, \"interval_upper\": 340.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-161", "text": "{\"estimate\": 171.0, \"units\": \"kg\", \"interval_lower\": 342.0, \"interval_upper\": 85.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-162", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-163", "text": "  \n{\"estimate\": 173.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 86.5, \"interval_upper\": 346.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-164", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 87.0, \"interval_upper\": 348.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-165", "text": "{\"estimate\": 175.0, \"units\": \"kg\", \"interval_lower\": 87.5, \"interval_upper\": 350.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-166", "text": "{\"estimate\": 176.125, \"units\": \"kg\", \"interval_lower\": 88.0, \"interval_upper\": 352.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-167", "text": "{\"estimate\": \"1.770e+02\", \"units\": \"kg\", \"interval_lower\": 88.5, \"interval_upper\": 354.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-168", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"178,000 kg\", \"units\": \"kg\", \"interval_lower\": 89.0, \"interval_upper\": 356.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-169", "text": "{\"units\": \"kg\", \"interval_lower\": 89.5, \"interval_upper\": 358.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-170", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-171", "text": "{\"estimate\": 181.0, \"units\": \"kg\", \"interval_lower\": 90.5, \"interval_upper\": 362.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-172", "text": "{\"estimate\": 182.0, \"units\": \"kg\", \"interval_lower\": 364.0, \"interval_upper\": 91.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-173", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-174", "text": "  \n{\"estimate\": 184.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 92.0, \"interval_upper\": 368.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-175", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 92.5, \"interval_upper\": 370.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-176", "text": "{\"estimate\": 186.0, \"units\": \"kg\", \"interval_lower\": 93.0, \"interval_upper\": 372.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-177", "text": "{\"estimate\": 187.125, \"units\": \"kg\", \"interval_lower\": 93.5, \"interval_upper\": 374.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-178", "text": "{\"estimate\": \"1.880e+02\", \"units\": \"kg\", \"interval_lower\": 94.0, \"interval_upper\": 376.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-179", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"189,000 kg\", \"units\": \"kg\", \"interval_lower\": 94.5, \"interval_upper\": 378.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-180", "text": "{\"units\": \"kg\", \"interval_lower\": 95.0, \"interval_upper\": 380.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-181", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-182", "text": "{\"estimate\": 192.0, \"units\": \"kg\", \"interval_lower\": 96.0, \"interval_upper\": 384.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-183", "text": "{\"estimate\": 193.0, \"units\": \"kg\", \"interval_lower\": 386.0, \"interval_upper\": 96.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-184", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-185", "text": "  \n{\"estimate\": 195.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 97.5, \"interval_upper\": 390.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-186", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 98.0, \"interval_upper\": 392.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-187", "text": "{\"estimate\": 197.0, \"units\": \"kg\", \"interval_lower\": 98.5, \"interval_upper\": 394.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-188", "text": "{\"estimate\": 198.125, \"units\": \"kg\", \"interval_lower\": 99.0, \"interval_upper\": 396.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-189", "text": "{\"estimate\": \"1.990e+02\", \"units\": \"kg\", \"interval_lower\": 99.5, \"interval_upper\": 398.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-190", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"200,000 kg\", \"units\": \"kg\", \"interval_lower\": 100.0, \"interval_upper\": 400.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-191", "text": "{\"units\": \"kg\", \"interval_lower\": 100.5, \"interval_upper\": 402.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-192", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-193", "text": "{\"estimate\": 203.0, \"units\": \"kg\", \"interval_lower\": 101.5, \"interval_upper\": 406.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-194", "text": "{\"estimate\": 204.0, \"units\": \"kg\", \"interval_lower\": 408.0, \"interval_upper\": 102.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-195", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-196", "text": "  \n{\"estimate\": 206.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 103.0, \"interval_upper\": 412.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-197", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 103.5, \"interval_upper\": 414.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-198", "text": "{\"estimate\": 208.0, \"units\": \"kg\", \"interval_lower\": 104.0, \"interval_upper\": 416.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-199", "text": "{\"estimate\": 209.125, \"units\": \"kg\", \"interval_lower\": 104.5, \"interval_upper\": 418.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-200", "text": "{\"estimate\": \"2.100e+02\", \"units\": \"kg\", \"interval_lower\": 105.0, \"interval_upper\": 420.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-201", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"211,000 kg\", \"units\": \"kg\", \"interval_lower\": 105.5, \"interval_upper\": 422.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-202", "text": "{\"units\": \"kg\", \"interval_lower\": 106.0, \"interval_upper\": 424.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-203", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-204", "text": "{\"estimate\": 214.0, \"units\": \"kg\", \"interval_lower\": 107.0, \"interval_upper\": 428.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-205", "text": "{\"estimate\": 215.0, \"units\": \"kg\", \"interval_lower\": 430.0, \"interval_upper\": 107.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-206", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-207", "text": "  \n{\"estimate\": 217.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 108.5, \"interval_upper\": 434.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-208", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 109.0, \"interval_upper\": 436.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-209", "text": "{\"estimate\": 219.0, \"units\": \"kg\", \"interval_lower\": 109.5, \"interval_upper\": 438.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-210", "text": "{\"estimate\": 220.125, \"units\": \"kg\", \"interval_lower\": 110.0, \"interval_upper\": 440.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-211", "text": "{\"estimate\": \"2.210e+02\", \"units\": \"kg\", \"interval_lower\": 110.5, \"interval_upper\": 442.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-212", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"222,000 kg\", \"units\": \"kg\", \"interval_lower\": 111.0, \"interval_upper\": 444.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-213", "text": "{\"units\": \"kg\", \"interval_lower\": 111.5, \"interval_upper\": 446.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-214", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-215", "text": "{\"estimate\": 225.0, \"units\": \"kg\", \"interval_lower\": 112.5, \"interval_upper\": 450.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-216", "text": "{\"estimate\": 226.0, \"units\": \"kg\", \"interval_lower\": 452.0, \"interval_upper\": 113.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-217", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-218", "text": "  \n{\"estimate\": 228.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 114.0, \"interval_upper\": 456.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-219", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 114.5, \"interval_upper\": 458.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-220", "text": "{\"estimate\": 230.0, \"units\": \"kg\", \"interval_lower\": 115.0, \"interval_upper\": 460.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-221", "text": "{\"estimate\": 231.125, \"units\": \"kg\", \"interval_lower\": 115.5, \"interval_upper\": 462.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-222", "text": "{\"estimate\": \"2.320e+02\", \"units\": \"kg\", \"interval_lower\": 116.0, \"interval_upper\": 464.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
@@ -228,106 +228,106 @@
 {"case_id": "synthetic-227", "text": "{\"estimate\": 237.0, \"units\": \"kg\", \"interval_lower\": 474.0, \"interval_upper\": 118.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-228", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
 {"case_id": "synthetic-229", "text": "  \n{\"estimate\": 239.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 119.5, \"interval_upper\": 478.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-230", "text": "{\"estimate\": 240.0, \"units\": \"kg\", \"interval_lower\": 120.0, \"interval_upper\": 480.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-231", "text": "{\"estimate\": 241.125, \"units\": \"kg\", \"interval_lower\": 120.5, \"interval_upper\": 482.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-232", "text": "{\"estimate\": \"2.420e+02\", \"units\": \"kg\", \"interval_lower\": 121.0, \"interval_upper\": 484.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-233", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"243,000 kg\", \"units\": \"kg\", \"interval_lower\": 121.5, \"interval_upper\": 486.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-234", "text": "{\"units\": \"kg\", \"interval_lower\": 122.0, \"interval_upper\": 488.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-235", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-236", "text": "{\"estimate\": 246.0, \"units\": \"kg\", \"interval_lower\": 123.0, \"interval_upper\": 492.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-237", "text": "{\"estimate\": 247.0, \"units\": \"kg\", \"interval_lower\": 494.0, \"interval_upper\": 123.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-238", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-239", "text": "  \n{\"estimate\": 249.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 124.5, \"interval_upper\": 498.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-240", "text": "{\"estimate\": 250.0, \"units\": \"kg\", \"interval_lower\": 125.0, \"interval_upper\": 500.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-241", "text": "{\"estimate\": 251.125, \"units\": \"kg\", \"interval_lower\": 125.5, \"interval_upper\": 502.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-242", "text": "{\"estimate\": \"2.520e+02\", \"units\": \"kg\", \"interval_lower\": 126.0, \"interval_upper\": 504.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-243", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"253,000 kg\", \"units\": \"kg\", \"interval_lower\": 126.5, \"interval_upper\": 506.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-244", "text": "{\"units\": \"kg\", \"interval_lower\": 127.0, \"interval_upper\": 508.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-245", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-246", "text": "{\"estimate\": 256.0, \"units\": \"kg\", \"interval_lower\": 128.0, \"interval_upper\": 512.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-247", "text": "{\"estimate\": 257.0, \"units\": \"kg\", \"interval_lower\": 514.0, \"interval_upper\": 128.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-248", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-249", "text": "  \n{\"estimate\": 259.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 129.5, \"interval_upper\": 518.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-250", "text": "{\"estimate\": 260.0, \"units\": \"kg\", \"interval_lower\": 130.0, \"interval_upper\": 520.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-251", "text": "{\"estimate\": 261.125, \"units\": \"kg\", \"interval_lower\": 130.5, \"interval_upper\": 522.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-252", "text": "{\"estimate\": \"2.620e+02\", \"units\": \"kg\", \"interval_lower\": 131.0, \"interval_upper\": 524.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-253", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"263,000 kg\", \"units\": \"kg\", \"interval_lower\": 131.5, \"interval_upper\": 526.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-254", "text": "{\"units\": \"kg\", \"interval_lower\": 132.0, \"interval_upper\": 528.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-255", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-256", "text": "{\"estimate\": 266.0, \"units\": \"kg\", \"interval_lower\": 133.0, \"interval_upper\": 532.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-257", "text": "{\"estimate\": 267.0, \"units\": \"kg\", \"interval_lower\": 534.0, \"interval_upper\": 133.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-258", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-259", "text": "  \n{\"estimate\": 269.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 134.5, \"interval_upper\": 538.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-260", "text": "{\"estimate\": 270.0, \"units\": \"kg\", \"interval_lower\": 135.0, \"interval_upper\": 540.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-261", "text": "{\"estimate\": 271.125, \"units\": \"kg\", \"interval_lower\": 135.5, \"interval_upper\": 542.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-262", "text": "{\"estimate\": \"2.720e+02\", \"units\": \"kg\", \"interval_lower\": 136.0, \"interval_upper\": 544.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-263", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"273,000 kg\", \"units\": \"kg\", \"interval_lower\": 136.5, \"interval_upper\": 546.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-264", "text": "{\"units\": \"kg\", \"interval_lower\": 137.0, \"interval_upper\": 548.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-265", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-266", "text": "{\"estimate\": 276.0, \"units\": \"kg\", \"interval_lower\": 138.0, \"interval_upper\": 552.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-267", "text": "{\"estimate\": 277.0, \"units\": \"kg\", \"interval_lower\": 554.0, \"interval_upper\": 138.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-268", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-269", "text": "  \n{\"estimate\": 279.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 139.5, \"interval_upper\": 558.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-270", "text": "{\"estimate\": 280.0, \"units\": \"kg\", \"interval_lower\": 140.0, \"interval_upper\": 560.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-271", "text": "{\"estimate\": 281.125, \"units\": \"kg\", \"interval_lower\": 140.5, \"interval_upper\": 562.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-272", "text": "{\"estimate\": \"2.820e+02\", \"units\": \"kg\", \"interval_lower\": 141.0, \"interval_upper\": 564.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-273", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"283,000 kg\", \"units\": \"kg\", \"interval_lower\": 141.5, \"interval_upper\": 566.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-274", "text": "{\"units\": \"kg\", \"interval_lower\": 142.0, \"interval_upper\": 568.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-275", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-276", "text": "{\"estimate\": 286.0, \"units\": \"kg\", \"interval_lower\": 143.0, \"interval_upper\": 572.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-277", "text": "{\"estimate\": 287.0, \"units\": \"kg\", \"interval_lower\": 574.0, \"interval_upper\": 143.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-278", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-279", "text": "  \n{\"estimate\": 289.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 144.5, \"interval_upper\": 578.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-280", "text": "{\"estimate\": 290.0, \"units\": \"kg\", \"interval_lower\": 145.0, \"interval_upper\": 580.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-281", "text": "{\"estimate\": 291.125, \"units\": \"kg\", \"interval_lower\": 145.5, \"interval_upper\": 582.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-282", "text": "{\"estimate\": \"2.920e+02\", \"units\": \"kg\", \"interval_lower\": 146.0, \"interval_upper\": 584.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-283", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"293,000 kg\", \"units\": \"kg\", \"interval_lower\": 146.5, \"interval_upper\": 586.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-284", "text": "{\"units\": \"kg\", \"interval_lower\": 147.0, \"interval_upper\": 588.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-285", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-286", "text": "{\"estimate\": 296.0, \"units\": \"kg\", \"interval_lower\": 148.0, \"interval_upper\": 592.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-287", "text": "{\"estimate\": 297.0, \"units\": \"kg\", \"interval_lower\": 594.0, \"interval_upper\": 148.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-288", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-289", "text": "  \n{\"estimate\": 299.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 149.5, \"interval_upper\": 598.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-290", "text": "{\"estimate\": 300.0, \"units\": \"kg\", \"interval_lower\": 150.0, \"interval_upper\": 600.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-291", "text": "{\"estimate\": 301.125, \"units\": \"kg\", \"interval_lower\": 150.5, \"interval_upper\": 602.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-292", "text": "{\"estimate\": \"3.020e+02\", \"units\": \"kg\", \"interval_lower\": 151.0, \"interval_upper\": 604.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-293", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"303,000 kg\", \"units\": \"kg\", \"interval_lower\": 151.5, \"interval_upper\": 606.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-294", "text": "{\"units\": \"kg\", \"interval_lower\": 152.0, \"interval_upper\": 608.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-295", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-296", "text": "{\"estimate\": 306.0, \"units\": \"kg\", \"interval_lower\": 153.0, \"interval_upper\": 612.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-297", "text": "{\"estimate\": 307.0, \"units\": \"kg\", \"interval_lower\": 614.0, \"interval_upper\": 153.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-298", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-299", "text": "  \n{\"estimate\": 309.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 154.5, \"interval_upper\": 618.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-300", "text": "{\"estimate\": 310.0, \"units\": \"kg\", \"interval_lower\": 155.0, \"interval_upper\": 620.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-301", "text": "{\"estimate\": 311.125, \"units\": \"kg\", \"interval_lower\": 155.5, \"interval_upper\": 622.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-302", "text": "{\"estimate\": \"3.120e+02\", \"units\": \"kg\", \"interval_lower\": 156.0, \"interval_upper\": 624.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-303", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"313,000 kg\", \"units\": \"kg\", \"interval_lower\": 156.5, \"interval_upper\": 626.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-304", "text": "{\"units\": \"kg\", \"interval_lower\": 157.0, \"interval_upper\": 628.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-305", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-306", "text": "{\"estimate\": 316.0, \"units\": \"kg\", \"interval_lower\": 158.0, \"interval_upper\": 632.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-307", "text": "{\"estimate\": 317.0, \"units\": \"kg\", \"interval_lower\": 634.0, \"interval_upper\": 158.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-308", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-309", "text": "  \n{\"estimate\": 319.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 159.5, \"interval_upper\": 638.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-310", "text": "{\"estimate\": 320.0, \"units\": \"kg\", \"interval_lower\": 160.0, \"interval_upper\": 640.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-311", "text": "{\"estimate\": 321.125, \"units\": \"kg\", \"interval_lower\": 160.5, \"interval_upper\": 642.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-312", "text": "{\"estimate\": \"3.220e+02\", \"units\": \"kg\", \"interval_lower\": 161.0, \"interval_upper\": 644.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-313", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"323,000 kg\", \"units\": \"kg\", \"interval_lower\": 161.5, \"interval_upper\": 646.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-314", "text": "{\"units\": \"kg\", \"interval_lower\": 162.0, \"interval_upper\": 648.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-315", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-316", "text": "{\"estimate\": 326.0, \"units\": \"kg\", \"interval_lower\": 163.0, \"interval_upper\": 652.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-317", "text": "{\"estimate\": 327.0, \"units\": \"kg\", \"interval_lower\": 654.0, \"interval_upper\": 163.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-318", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-319", "text": "  \n{\"estimate\": 329.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 164.5, \"interval_upper\": 658.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-320", "text": "{\"estimate\": 330.0, \"units\": \"kg\", \"interval_lower\": 165.0, \"interval_upper\": 660.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-321", "text": "{\"estimate\": 331.125, \"units\": \"kg\", \"interval_lower\": 165.5, \"interval_upper\": 662.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-322", "text": "{\"estimate\": \"3.320e+02\", \"units\": \"kg\", \"interval_lower\": 166.0, \"interval_upper\": 664.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-323", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"333,000 kg\", \"units\": \"kg\", \"interval_lower\": 166.5, \"interval_upper\": 666.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-324", "text": "{\"units\": \"kg\", \"interval_lower\": 167.0, \"interval_upper\": 668.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-325", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-326", "text": "{\"estimate\": 336.0, \"units\": \"kg\", \"interval_lower\": 168.0, \"interval_upper\": 672.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-327", "text": "{\"estimate\": 337.0, \"units\": \"kg\", \"interval_lower\": 674.0, \"interval_upper\": 168.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-328", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-329", "text": "  \n{\"estimate\": 339.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 169.5, \"interval_upper\": 678.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-230", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 120.0, \"interval_upper\": 480.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-231", "text": "{\"estimate\": 241.0, \"units\": \"kg\", \"interval_lower\": 120.5, \"interval_upper\": 482.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-232", "text": "{\"estimate\": 242.125, \"units\": \"kg\", \"interval_lower\": 121.0, \"interval_upper\": 484.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-233", "text": "{\"estimate\": \"2.430e+02\", \"units\": \"kg\", \"interval_lower\": 121.5, \"interval_upper\": 486.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-234", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"244,000 kg\", \"units\": \"kg\", \"interval_lower\": 122.0, \"interval_upper\": 488.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-235", "text": "{\"units\": \"kg\", \"interval_lower\": 122.5, \"interval_upper\": 490.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-236", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-237", "text": "{\"estimate\": 247.0, \"units\": \"kg\", \"interval_lower\": 123.5, \"interval_upper\": 494.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-238", "text": "{\"estimate\": 248.0, \"units\": \"kg\", \"interval_lower\": 496.0, \"interval_upper\": 124.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-239", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-240", "text": "  \n{\"estimate\": 250.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 125.0, \"interval_upper\": 500.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-241", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 125.5, \"interval_upper\": 502.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-242", "text": "{\"estimate\": 252.0, \"units\": \"kg\", \"interval_lower\": 126.0, \"interval_upper\": 504.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-243", "text": "{\"estimate\": 253.125, \"units\": \"kg\", \"interval_lower\": 126.5, \"interval_upper\": 506.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-244", "text": "{\"estimate\": \"2.540e+02\", \"units\": \"kg\", \"interval_lower\": 127.0, \"interval_upper\": 508.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-245", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"255,000 kg\", \"units\": \"kg\", \"interval_lower\": 127.5, \"interval_upper\": 510.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-246", "text": "{\"units\": \"kg\", \"interval_lower\": 128.0, \"interval_upper\": 512.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-247", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-248", "text": "{\"estimate\": 258.0, \"units\": \"kg\", \"interval_lower\": 129.0, \"interval_upper\": 516.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-249", "text": "{\"estimate\": 259.0, \"units\": \"kg\", \"interval_lower\": 518.0, \"interval_upper\": 129.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-250", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-251", "text": "  \n{\"estimate\": 261.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 130.5, \"interval_upper\": 522.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-252", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 131.0, \"interval_upper\": 524.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-253", "text": "{\"estimate\": 263.0, \"units\": \"kg\", \"interval_lower\": 131.5, \"interval_upper\": 526.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-254", "text": "{\"estimate\": 264.125, \"units\": \"kg\", \"interval_lower\": 132.0, \"interval_upper\": 528.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-255", "text": "{\"estimate\": \"2.650e+02\", \"units\": \"kg\", \"interval_lower\": 132.5, \"interval_upper\": 530.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-256", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"266,000 kg\", \"units\": \"kg\", \"interval_lower\": 133.0, \"interval_upper\": 532.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-257", "text": "{\"units\": \"kg\", \"interval_lower\": 133.5, \"interval_upper\": 534.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-258", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-259", "text": "{\"estimate\": 269.0, \"units\": \"kg\", \"interval_lower\": 134.5, \"interval_upper\": 538.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-260", "text": "{\"estimate\": 270.0, \"units\": \"kg\", \"interval_lower\": 540.0, \"interval_upper\": 135.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-261", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-262", "text": "  \n{\"estimate\": 272.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 136.0, \"interval_upper\": 544.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-263", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 136.5, \"interval_upper\": 546.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-264", "text": "{\"estimate\": 274.0, \"units\": \"kg\", \"interval_lower\": 137.0, \"interval_upper\": 548.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-265", "text": "{\"estimate\": 275.125, \"units\": \"kg\", \"interval_lower\": 137.5, \"interval_upper\": 550.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-266", "text": "{\"estimate\": \"2.760e+02\", \"units\": \"kg\", \"interval_lower\": 138.0, \"interval_upper\": 552.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-267", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"277,000 kg\", \"units\": \"kg\", \"interval_lower\": 138.5, \"interval_upper\": 554.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-268", "text": "{\"units\": \"kg\", \"interval_lower\": 139.0, \"interval_upper\": 556.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-269", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-270", "text": "{\"estimate\": 280.0, \"units\": \"kg\", \"interval_lower\": 140.0, \"interval_upper\": 560.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-271", "text": "{\"estimate\": 281.0, \"units\": \"kg\", \"interval_lower\": 562.0, \"interval_upper\": 140.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-272", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-273", "text": "  \n{\"estimate\": 283.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 141.5, \"interval_upper\": 566.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-274", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 142.0, \"interval_upper\": 568.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-275", "text": "{\"estimate\": 285.0, \"units\": \"kg\", \"interval_lower\": 142.5, \"interval_upper\": 570.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-276", "text": "{\"estimate\": 286.125, \"units\": \"kg\", \"interval_lower\": 143.0, \"interval_upper\": 572.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-277", "text": "{\"estimate\": \"2.870e+02\", \"units\": \"kg\", \"interval_lower\": 143.5, \"interval_upper\": 574.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-278", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"288,000 kg\", \"units\": \"kg\", \"interval_lower\": 144.0, \"interval_upper\": 576.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-279", "text": "{\"units\": \"kg\", \"interval_lower\": 144.5, \"interval_upper\": 578.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-280", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-281", "text": "{\"estimate\": 291.0, \"units\": \"kg\", \"interval_lower\": 145.5, \"interval_upper\": 582.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-282", "text": "{\"estimate\": 292.0, \"units\": \"kg\", \"interval_lower\": 584.0, \"interval_upper\": 146.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-283", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-284", "text": "  \n{\"estimate\": 294.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 147.0, \"interval_upper\": 588.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-285", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 147.5, \"interval_upper\": 590.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-286", "text": "{\"estimate\": 296.0, \"units\": \"kg\", \"interval_lower\": 148.0, \"interval_upper\": 592.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-287", "text": "{\"estimate\": 297.125, \"units\": \"kg\", \"interval_lower\": 148.5, \"interval_upper\": 594.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-288", "text": "{\"estimate\": \"2.980e+02\", \"units\": \"kg\", \"interval_lower\": 149.0, \"interval_upper\": 596.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-289", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"299,000 kg\", \"units\": \"kg\", \"interval_lower\": 149.5, \"interval_upper\": 598.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-290", "text": "{\"units\": \"kg\", \"interval_lower\": 150.0, \"interval_upper\": 600.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-291", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-292", "text": "{\"estimate\": 302.0, \"units\": \"kg\", \"interval_lower\": 151.0, \"interval_upper\": 604.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-293", "text": "{\"estimate\": 303.0, \"units\": \"kg\", \"interval_lower\": 606.0, \"interval_upper\": 151.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-294", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-295", "text": "  \n{\"estimate\": 305.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 152.5, \"interval_upper\": 610.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-296", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 153.0, \"interval_upper\": 612.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-297", "text": "{\"estimate\": 307.0, \"units\": \"kg\", \"interval_lower\": 153.5, \"interval_upper\": 614.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-298", "text": "{\"estimate\": 308.125, \"units\": \"kg\", \"interval_lower\": 154.0, \"interval_upper\": 616.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-299", "text": "{\"estimate\": \"3.090e+02\", \"units\": \"kg\", \"interval_lower\": 154.5, \"interval_upper\": 618.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-300", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"310,000 kg\", \"units\": \"kg\", \"interval_lower\": 155.0, \"interval_upper\": 620.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-301", "text": "{\"units\": \"kg\", \"interval_lower\": 155.5, \"interval_upper\": 622.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-302", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-303", "text": "{\"estimate\": 313.0, \"units\": \"kg\", \"interval_lower\": 156.5, \"interval_upper\": 626.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-304", "text": "{\"estimate\": 314.0, \"units\": \"kg\", \"interval_lower\": 628.0, \"interval_upper\": 157.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-305", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-306", "text": "  \n{\"estimate\": 316.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 158.0, \"interval_upper\": 632.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-307", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 158.5, \"interval_upper\": 634.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-308", "text": "{\"estimate\": 318.0, \"units\": \"kg\", \"interval_lower\": 159.0, \"interval_upper\": 636.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-309", "text": "{\"estimate\": 319.125, \"units\": \"kg\", \"interval_lower\": 159.5, \"interval_upper\": 638.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-310", "text": "{\"estimate\": \"3.200e+02\", \"units\": \"kg\", \"interval_lower\": 160.0, \"interval_upper\": 640.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-311", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"321,000 kg\", \"units\": \"kg\", \"interval_lower\": 160.5, \"interval_upper\": 642.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-312", "text": "{\"units\": \"kg\", \"interval_lower\": 161.0, \"interval_upper\": 644.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-313", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-314", "text": "{\"estimate\": 324.0, \"units\": \"kg\", \"interval_lower\": 162.0, \"interval_upper\": 648.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-315", "text": "{\"estimate\": 325.0, \"units\": \"kg\", \"interval_lower\": 650.0, \"interval_upper\": 162.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-316", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-317", "text": "  \n{\"estimate\": 327.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 163.5, \"interval_upper\": 654.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-318", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 164.0, \"interval_upper\": 656.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-319", "text": "{\"estimate\": 329.0, \"units\": \"kg\", \"interval_lower\": 164.5, \"interval_upper\": 658.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-320", "text": "{\"estimate\": 330.125, \"units\": \"kg\", \"interval_lower\": 165.0, \"interval_upper\": 660.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-321", "text": "{\"estimate\": \"3.310e+02\", \"units\": \"kg\", \"interval_lower\": 165.5, \"interval_upper\": 662.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-322", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"332,000 kg\", \"units\": \"kg\", \"interval_lower\": 166.0, \"interval_upper\": 664.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-323", "text": "{\"units\": \"kg\", \"interval_lower\": 166.5, \"interval_upper\": 666.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-324", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-325", "text": "{\"estimate\": 335.0, \"units\": \"kg\", \"interval_lower\": 167.5, \"interval_upper\": 670.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-326", "text": "{\"estimate\": 336.0, \"units\": \"kg\", \"interval_lower\": 672.0, \"interval_upper\": 168.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-327", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-328", "text": "  \n{\"estimate\": 338.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 169.0, \"interval_upper\": 676.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-329", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 169.5, \"interval_upper\": 678.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-330", "text": "{\"estimate\": 340.0, \"units\": \"kg\", \"interval_lower\": 170.0, \"interval_upper\": 680.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-331", "text": "{\"estimate\": 341.125, \"units\": \"kg\", \"interval_lower\": 170.5, \"interval_upper\": 682.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-332", "text": "{\"estimate\": \"3.420e+02\", \"units\": \"kg\", \"interval_lower\": 171.0, \"interval_upper\": 684.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
@@ -338,106 +338,106 @@
 {"case_id": "synthetic-337", "text": "{\"estimate\": 347.0, \"units\": \"kg\", \"interval_lower\": 694.0, \"interval_upper\": 173.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-338", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
 {"case_id": "synthetic-339", "text": "  \n{\"estimate\": 349.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 174.5, \"interval_upper\": 698.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-340", "text": "{\"estimate\": 350.0, \"units\": \"kg\", \"interval_lower\": 175.0, \"interval_upper\": 700.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-341", "text": "{\"estimate\": 351.125, \"units\": \"kg\", \"interval_lower\": 175.5, \"interval_upper\": 702.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-342", "text": "{\"estimate\": \"3.520e+02\", \"units\": \"kg\", \"interval_lower\": 176.0, \"interval_upper\": 704.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-343", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"353,000 kg\", \"units\": \"kg\", \"interval_lower\": 176.5, \"interval_upper\": 706.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-344", "text": "{\"units\": \"kg\", \"interval_lower\": 177.0, \"interval_upper\": 708.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-345", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-346", "text": "{\"estimate\": 356.0, \"units\": \"kg\", \"interval_lower\": 178.0, \"interval_upper\": 712.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-347", "text": "{\"estimate\": 357.0, \"units\": \"kg\", \"interval_lower\": 714.0, \"interval_upper\": 178.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-348", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-349", "text": "  \n{\"estimate\": 359.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 179.5, \"interval_upper\": 718.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-350", "text": "{\"estimate\": 360.0, \"units\": \"kg\", \"interval_lower\": 180.0, \"interval_upper\": 720.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-351", "text": "{\"estimate\": 361.125, \"units\": \"kg\", \"interval_lower\": 180.5, \"interval_upper\": 722.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-352", "text": "{\"estimate\": \"3.620e+02\", \"units\": \"kg\", \"interval_lower\": 181.0, \"interval_upper\": 724.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-353", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"363,000 kg\", \"units\": \"kg\", \"interval_lower\": 181.5, \"interval_upper\": 726.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-354", "text": "{\"units\": \"kg\", \"interval_lower\": 182.0, \"interval_upper\": 728.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-355", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-356", "text": "{\"estimate\": 366.0, \"units\": \"kg\", \"interval_lower\": 183.0, \"interval_upper\": 732.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-357", "text": "{\"estimate\": 367.0, \"units\": \"kg\", \"interval_lower\": 734.0, \"interval_upper\": 183.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-358", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-359", "text": "  \n{\"estimate\": 369.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 184.5, \"interval_upper\": 738.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-360", "text": "{\"estimate\": 370.0, \"units\": \"kg\", \"interval_lower\": 185.0, \"interval_upper\": 740.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-361", "text": "{\"estimate\": 371.125, \"units\": \"kg\", \"interval_lower\": 185.5, \"interval_upper\": 742.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-362", "text": "{\"estimate\": \"3.720e+02\", \"units\": \"kg\", \"interval_lower\": 186.0, \"interval_upper\": 744.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-363", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"373,000 kg\", \"units\": \"kg\", \"interval_lower\": 186.5, \"interval_upper\": 746.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-364", "text": "{\"units\": \"kg\", \"interval_lower\": 187.0, \"interval_upper\": 748.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-365", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-366", "text": "{\"estimate\": 376.0, \"units\": \"kg\", \"interval_lower\": 188.0, \"interval_upper\": 752.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-367", "text": "{\"estimate\": 377.0, \"units\": \"kg\", \"interval_lower\": 754.0, \"interval_upper\": 188.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-368", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-369", "text": "  \n{\"estimate\": 379.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 189.5, \"interval_upper\": 758.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-370", "text": "{\"estimate\": 380.0, \"units\": \"kg\", \"interval_lower\": 190.0, \"interval_upper\": 760.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-371", "text": "{\"estimate\": 381.125, \"units\": \"kg\", \"interval_lower\": 190.5, \"interval_upper\": 762.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-372", "text": "{\"estimate\": \"3.820e+02\", \"units\": \"kg\", \"interval_lower\": 191.0, \"interval_upper\": 764.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-373", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"383,000 kg\", \"units\": \"kg\", \"interval_lower\": 191.5, \"interval_upper\": 766.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-374", "text": "{\"units\": \"kg\", \"interval_lower\": 192.0, \"interval_upper\": 768.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-375", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-376", "text": "{\"estimate\": 386.0, \"units\": \"kg\", \"interval_lower\": 193.0, \"interval_upper\": 772.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-377", "text": "{\"estimate\": 387.0, \"units\": \"kg\", \"interval_lower\": 774.0, \"interval_upper\": 193.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-378", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-379", "text": "  \n{\"estimate\": 389.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 194.5, \"interval_upper\": 778.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-380", "text": "{\"estimate\": 390.0, \"units\": \"kg\", \"interval_lower\": 195.0, \"interval_upper\": 780.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-381", "text": "{\"estimate\": 391.125, \"units\": \"kg\", \"interval_lower\": 195.5, \"interval_upper\": 782.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-382", "text": "{\"estimate\": \"3.920e+02\", \"units\": \"kg\", \"interval_lower\": 196.0, \"interval_upper\": 784.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-383", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"393,000 kg\", \"units\": \"kg\", \"interval_lower\": 196.5, \"interval_upper\": 786.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-384", "text": "{\"units\": \"kg\", \"interval_lower\": 197.0, \"interval_upper\": 788.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-385", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-386", "text": "{\"estimate\": 396.0, \"units\": \"kg\", \"interval_lower\": 198.0, \"interval_upper\": 792.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-387", "text": "{\"estimate\": 397.0, \"units\": \"kg\", \"interval_lower\": 794.0, \"interval_upper\": 198.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-388", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-389", "text": "  \n{\"estimate\": 399.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 199.5, \"interval_upper\": 798.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-390", "text": "{\"estimate\": 400.0, \"units\": \"kg\", \"interval_lower\": 200.0, \"interval_upper\": 800.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-391", "text": "{\"estimate\": 401.125, \"units\": \"kg\", \"interval_lower\": 200.5, \"interval_upper\": 802.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-392", "text": "{\"estimate\": \"4.020e+02\", \"units\": \"kg\", \"interval_lower\": 201.0, \"interval_upper\": 804.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-393", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"403,000 kg\", \"units\": \"kg\", \"interval_lower\": 201.5, \"interval_upper\": 806.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-394", "text": "{\"units\": \"kg\", \"interval_lower\": 202.0, \"interval_upper\": 808.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-395", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-396", "text": "{\"estimate\": 406.0, \"units\": \"kg\", \"interval_lower\": 203.0, \"interval_upper\": 812.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-397", "text": "{\"estimate\": 407.0, \"units\": \"kg\", \"interval_lower\": 814.0, \"interval_upper\": 203.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-398", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-399", "text": "  \n{\"estimate\": 409.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 204.5, \"interval_upper\": 818.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-400", "text": "{\"estimate\": 410.0, \"units\": \"kg\", \"interval_lower\": 205.0, \"interval_upper\": 820.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-401", "text": "{\"estimate\": 411.125, \"units\": \"kg\", \"interval_lower\": 205.5, \"interval_upper\": 822.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-402", "text": "{\"estimate\": \"4.120e+02\", \"units\": \"kg\", \"interval_lower\": 206.0, \"interval_upper\": 824.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-403", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"413,000 kg\", \"units\": \"kg\", \"interval_lower\": 206.5, \"interval_upper\": 826.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-404", "text": "{\"units\": \"kg\", \"interval_lower\": 207.0, \"interval_upper\": 828.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-405", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-406", "text": "{\"estimate\": 416.0, \"units\": \"kg\", \"interval_lower\": 208.0, \"interval_upper\": 832.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-407", "text": "{\"estimate\": 417.0, \"units\": \"kg\", \"interval_lower\": 834.0, \"interval_upper\": 208.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-408", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-409", "text": "  \n{\"estimate\": 419.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 209.5, \"interval_upper\": 838.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-410", "text": "{\"estimate\": 420.0, \"units\": \"kg\", \"interval_lower\": 210.0, \"interval_upper\": 840.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-411", "text": "{\"estimate\": 421.125, \"units\": \"kg\", \"interval_lower\": 210.5, \"interval_upper\": 842.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-412", "text": "{\"estimate\": \"4.220e+02\", \"units\": \"kg\", \"interval_lower\": 211.0, \"interval_upper\": 844.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-413", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"423,000 kg\", \"units\": \"kg\", \"interval_lower\": 211.5, \"interval_upper\": 846.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-414", "text": "{\"units\": \"kg\", \"interval_lower\": 212.0, \"interval_upper\": 848.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-415", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-416", "text": "{\"estimate\": 426.0, \"units\": \"kg\", \"interval_lower\": 213.0, \"interval_upper\": 852.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-417", "text": "{\"estimate\": 427.0, \"units\": \"kg\", \"interval_lower\": 854.0, \"interval_upper\": 213.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-418", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-419", "text": "  \n{\"estimate\": 429.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 214.5, \"interval_upper\": 858.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-420", "text": "{\"estimate\": 430.0, \"units\": \"kg\", \"interval_lower\": 215.0, \"interval_upper\": 860.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-421", "text": "{\"estimate\": 431.125, \"units\": \"kg\", \"interval_lower\": 215.5, \"interval_upper\": 862.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-422", "text": "{\"estimate\": \"4.320e+02\", \"units\": \"kg\", \"interval_lower\": 216.0, \"interval_upper\": 864.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-423", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"433,000 kg\", \"units\": \"kg\", \"interval_lower\": 216.5, \"interval_upper\": 866.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-424", "text": "{\"units\": \"kg\", \"interval_lower\": 217.0, \"interval_upper\": 868.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-425", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-426", "text": "{\"estimate\": 436.0, \"units\": \"kg\", \"interval_lower\": 218.0, \"interval_upper\": 872.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-427", "text": "{\"estimate\": 437.0, \"units\": \"kg\", \"interval_lower\": 874.0, \"interval_upper\": 218.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-428", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-429", "text": "  \n{\"estimate\": 439.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 219.5, \"interval_upper\": 878.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-430", "text": "{\"estimate\": 440.0, \"units\": \"kg\", \"interval_lower\": 220.0, \"interval_upper\": 880.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-431", "text": "{\"estimate\": 441.125, \"units\": \"kg\", \"interval_lower\": 220.5, \"interval_upper\": 882.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-432", "text": "{\"estimate\": \"4.420e+02\", \"units\": \"kg\", \"interval_lower\": 221.0, \"interval_upper\": 884.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-433", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"443,000 kg\", \"units\": \"kg\", \"interval_lower\": 221.5, \"interval_upper\": 886.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-434", "text": "{\"units\": \"kg\", \"interval_lower\": 222.0, \"interval_upper\": 888.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-435", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-436", "text": "{\"estimate\": 446.0, \"units\": \"kg\", \"interval_lower\": 223.0, \"interval_upper\": 892.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-437", "text": "{\"estimate\": 447.0, \"units\": \"kg\", \"interval_lower\": 894.0, \"interval_upper\": 223.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-438", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-439", "text": "  \n{\"estimate\": 449.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 224.5, \"interval_upper\": 898.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-340", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 175.0, \"interval_upper\": 700.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-341", "text": "{\"estimate\": 351.0, \"units\": \"kg\", \"interval_lower\": 175.5, \"interval_upper\": 702.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-342", "text": "{\"estimate\": 352.125, \"units\": \"kg\", \"interval_lower\": 176.0, \"interval_upper\": 704.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-343", "text": "{\"estimate\": \"3.530e+02\", \"units\": \"kg\", \"interval_lower\": 176.5, \"interval_upper\": 706.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-344", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"354,000 kg\", \"units\": \"kg\", \"interval_lower\": 177.0, \"interval_upper\": 708.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-345", "text": "{\"units\": \"kg\", \"interval_lower\": 177.5, \"interval_upper\": 710.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-346", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-347", "text": "{\"estimate\": 357.0, \"units\": \"kg\", \"interval_lower\": 178.5, \"interval_upper\": 714.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-348", "text": "{\"estimate\": 358.0, \"units\": \"kg\", \"interval_lower\": 716.0, \"interval_upper\": 179.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-349", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-350", "text": "  \n{\"estimate\": 360.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 180.0, \"interval_upper\": 720.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-351", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 180.5, \"interval_upper\": 722.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-352", "text": "{\"estimate\": 362.0, \"units\": \"kg\", \"interval_lower\": 181.0, \"interval_upper\": 724.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-353", "text": "{\"estimate\": 363.125, \"units\": \"kg\", \"interval_lower\": 181.5, \"interval_upper\": 726.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-354", "text": "{\"estimate\": \"3.640e+02\", \"units\": \"kg\", \"interval_lower\": 182.0, \"interval_upper\": 728.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-355", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"365,000 kg\", \"units\": \"kg\", \"interval_lower\": 182.5, \"interval_upper\": 730.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-356", "text": "{\"units\": \"kg\", \"interval_lower\": 183.0, \"interval_upper\": 732.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-357", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-358", "text": "{\"estimate\": 368.0, \"units\": \"kg\", \"interval_lower\": 184.0, \"interval_upper\": 736.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-359", "text": "{\"estimate\": 369.0, \"units\": \"kg\", \"interval_lower\": 738.0, \"interval_upper\": 184.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-360", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-361", "text": "  \n{\"estimate\": 371.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 185.5, \"interval_upper\": 742.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-362", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 186.0, \"interval_upper\": 744.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-363", "text": "{\"estimate\": 373.0, \"units\": \"kg\", \"interval_lower\": 186.5, \"interval_upper\": 746.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-364", "text": "{\"estimate\": 374.125, \"units\": \"kg\", \"interval_lower\": 187.0, \"interval_upper\": 748.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-365", "text": "{\"estimate\": \"3.750e+02\", \"units\": \"kg\", \"interval_lower\": 187.5, \"interval_upper\": 750.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-366", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"376,000 kg\", \"units\": \"kg\", \"interval_lower\": 188.0, \"interval_upper\": 752.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-367", "text": "{\"units\": \"kg\", \"interval_lower\": 188.5, \"interval_upper\": 754.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-368", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-369", "text": "{\"estimate\": 379.0, \"units\": \"kg\", \"interval_lower\": 189.5, \"interval_upper\": 758.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-370", "text": "{\"estimate\": 380.0, \"units\": \"kg\", \"interval_lower\": 760.0, \"interval_upper\": 190.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-371", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-372", "text": "  \n{\"estimate\": 382.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 191.0, \"interval_upper\": 764.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-373", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 191.5, \"interval_upper\": 766.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-374", "text": "{\"estimate\": 384.0, \"units\": \"kg\", \"interval_lower\": 192.0, \"interval_upper\": 768.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-375", "text": "{\"estimate\": 385.125, \"units\": \"kg\", \"interval_lower\": 192.5, \"interval_upper\": 770.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-376", "text": "{\"estimate\": \"3.860e+02\", \"units\": \"kg\", \"interval_lower\": 193.0, \"interval_upper\": 772.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-377", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"387,000 kg\", \"units\": \"kg\", \"interval_lower\": 193.5, \"interval_upper\": 774.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-378", "text": "{\"units\": \"kg\", \"interval_lower\": 194.0, \"interval_upper\": 776.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-379", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-380", "text": "{\"estimate\": 390.0, \"units\": \"kg\", \"interval_lower\": 195.0, \"interval_upper\": 780.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-381", "text": "{\"estimate\": 391.0, \"units\": \"kg\", \"interval_lower\": 782.0, \"interval_upper\": 195.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-382", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-383", "text": "  \n{\"estimate\": 393.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 196.5, \"interval_upper\": 786.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-384", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 197.0, \"interval_upper\": 788.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-385", "text": "{\"estimate\": 395.0, \"units\": \"kg\", \"interval_lower\": 197.5, \"interval_upper\": 790.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-386", "text": "{\"estimate\": 396.125, \"units\": \"kg\", \"interval_lower\": 198.0, \"interval_upper\": 792.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-387", "text": "{\"estimate\": \"3.970e+02\", \"units\": \"kg\", \"interval_lower\": 198.5, \"interval_upper\": 794.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-388", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"398,000 kg\", \"units\": \"kg\", \"interval_lower\": 199.0, \"interval_upper\": 796.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-389", "text": "{\"units\": \"kg\", \"interval_lower\": 199.5, \"interval_upper\": 798.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-390", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-391", "text": "{\"estimate\": 401.0, \"units\": \"kg\", \"interval_lower\": 200.5, \"interval_upper\": 802.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-392", "text": "{\"estimate\": 402.0, \"units\": \"kg\", \"interval_lower\": 804.0, \"interval_upper\": 201.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-393", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-394", "text": "  \n{\"estimate\": 404.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 202.0, \"interval_upper\": 808.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-395", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 202.5, \"interval_upper\": 810.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-396", "text": "{\"estimate\": 406.0, \"units\": \"kg\", \"interval_lower\": 203.0, \"interval_upper\": 812.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-397", "text": "{\"estimate\": 407.125, \"units\": \"kg\", \"interval_lower\": 203.5, \"interval_upper\": 814.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-398", "text": "{\"estimate\": \"4.080e+02\", \"units\": \"kg\", \"interval_lower\": 204.0, \"interval_upper\": 816.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-399", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"409,000 kg\", \"units\": \"kg\", \"interval_lower\": 204.5, \"interval_upper\": 818.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-400", "text": "{\"units\": \"kg\", \"interval_lower\": 205.0, \"interval_upper\": 820.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-401", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-402", "text": "{\"estimate\": 412.0, \"units\": \"kg\", \"interval_lower\": 206.0, \"interval_upper\": 824.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-403", "text": "{\"estimate\": 413.0, \"units\": \"kg\", \"interval_lower\": 826.0, \"interval_upper\": 206.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-404", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-405", "text": "  \n{\"estimate\": 415.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 207.5, \"interval_upper\": 830.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-406", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 208.0, \"interval_upper\": 832.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-407", "text": "{\"estimate\": 417.0, \"units\": \"kg\", \"interval_lower\": 208.5, \"interval_upper\": 834.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-408", "text": "{\"estimate\": 418.125, \"units\": \"kg\", \"interval_lower\": 209.0, \"interval_upper\": 836.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-409", "text": "{\"estimate\": \"4.190e+02\", \"units\": \"kg\", \"interval_lower\": 209.5, \"interval_upper\": 838.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-410", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"420,000 kg\", \"units\": \"kg\", \"interval_lower\": 210.0, \"interval_upper\": 840.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-411", "text": "{\"units\": \"kg\", \"interval_lower\": 210.5, \"interval_upper\": 842.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-412", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-413", "text": "{\"estimate\": 423.0, \"units\": \"kg\", \"interval_lower\": 211.5, \"interval_upper\": 846.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-414", "text": "{\"estimate\": 424.0, \"units\": \"kg\", \"interval_lower\": 848.0, \"interval_upper\": 212.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-415", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-416", "text": "  \n{\"estimate\": 426.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 213.0, \"interval_upper\": 852.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-417", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 213.5, \"interval_upper\": 854.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-418", "text": "{\"estimate\": 428.0, \"units\": \"kg\", \"interval_lower\": 214.0, \"interval_upper\": 856.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-419", "text": "{\"estimate\": 429.125, \"units\": \"kg\", \"interval_lower\": 214.5, \"interval_upper\": 858.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-420", "text": "{\"estimate\": \"4.300e+02\", \"units\": \"kg\", \"interval_lower\": 215.0, \"interval_upper\": 860.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-421", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"431,000 kg\", \"units\": \"kg\", \"interval_lower\": 215.5, \"interval_upper\": 862.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-422", "text": "{\"units\": \"kg\", \"interval_lower\": 216.0, \"interval_upper\": 864.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-423", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-424", "text": "{\"estimate\": 434.0, \"units\": \"kg\", \"interval_lower\": 217.0, \"interval_upper\": 868.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-425", "text": "{\"estimate\": 435.0, \"units\": \"kg\", \"interval_lower\": 870.0, \"interval_upper\": 217.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-426", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-427", "text": "  \n{\"estimate\": 437.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 218.5, \"interval_upper\": 874.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-428", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 219.0, \"interval_upper\": 876.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-429", "text": "{\"estimate\": 439.0, \"units\": \"kg\", \"interval_lower\": 219.5, \"interval_upper\": 878.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-430", "text": "{\"estimate\": 440.125, \"units\": \"kg\", \"interval_lower\": 220.0, \"interval_upper\": 880.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-431", "text": "{\"estimate\": \"4.410e+02\", \"units\": \"kg\", \"interval_lower\": 220.5, \"interval_upper\": 882.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-432", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"442,000 kg\", \"units\": \"kg\", \"interval_lower\": 221.0, \"interval_upper\": 884.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-433", "text": "{\"units\": \"kg\", \"interval_lower\": 221.5, \"interval_upper\": 886.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-434", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-435", "text": "{\"estimate\": 445.0, \"units\": \"kg\", \"interval_lower\": 222.5, \"interval_upper\": 890.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-436", "text": "{\"estimate\": 446.0, \"units\": \"kg\", \"interval_lower\": 892.0, \"interval_upper\": 223.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-437", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-438", "text": "  \n{\"estimate\": 448.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 224.0, \"interval_upper\": 896.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-439", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 224.5, \"interval_upper\": 898.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-440", "text": "{\"estimate\": 450.0, \"units\": \"kg\", \"interval_lower\": 225.0, \"interval_upper\": 900.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-441", "text": "{\"estimate\": 451.125, \"units\": \"kg\", \"interval_lower\": 225.5, \"interval_upper\": 902.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
 {"case_id": "synthetic-442", "text": "{\"estimate\": \"4.520e+02\", \"units\": \"kg\", \"interval_lower\": 226.0, \"interval_upper\": 904.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
@@ -448,53 +448,53 @@
 {"case_id": "synthetic-447", "text": "{\"estimate\": 457.0, \"units\": \"kg\", \"interval_lower\": 914.0, \"interval_upper\": 228.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
 {"case_id": "synthetic-448", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
 {"case_id": "synthetic-449", "text": "  \n{\"estimate\": 459.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 229.5, \"interval_upper\": 918.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-450", "text": "{\"estimate\": 460.0, \"units\": \"kg\", \"interval_lower\": 230.0, \"interval_upper\": 920.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-451", "text": "{\"estimate\": 461.125, \"units\": \"kg\", \"interval_lower\": 230.5, \"interval_upper\": 922.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-452", "text": "{\"estimate\": \"4.620e+02\", \"units\": \"kg\", \"interval_lower\": 231.0, \"interval_upper\": 924.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-453", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"463,000 kg\", \"units\": \"kg\", \"interval_lower\": 231.5, \"interval_upper\": 926.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-454", "text": "{\"units\": \"kg\", \"interval_lower\": 232.0, \"interval_upper\": 928.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-455", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-456", "text": "{\"estimate\": 466.0, \"units\": \"kg\", \"interval_lower\": 233.0, \"interval_upper\": 932.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-457", "text": "{\"estimate\": 467.0, \"units\": \"kg\", \"interval_lower\": 934.0, \"interval_upper\": 233.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-458", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-459", "text": "  \n{\"estimate\": 469.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 234.5, \"interval_upper\": 938.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-460", "text": "{\"estimate\": 470.0, \"units\": \"kg\", \"interval_lower\": 235.0, \"interval_upper\": 940.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-461", "text": "{\"estimate\": 471.125, \"units\": \"kg\", \"interval_lower\": 235.5, \"interval_upper\": 942.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-462", "text": "{\"estimate\": \"4.720e+02\", \"units\": \"kg\", \"interval_lower\": 236.0, \"interval_upper\": 944.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-463", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"473,000 kg\", \"units\": \"kg\", \"interval_lower\": 236.5, \"interval_upper\": 946.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-464", "text": "{\"units\": \"kg\", \"interval_lower\": 237.0, \"interval_upper\": 948.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-465", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-466", "text": "{\"estimate\": 476.0, \"units\": \"kg\", \"interval_lower\": 238.0, \"interval_upper\": 952.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-467", "text": "{\"estimate\": 477.0, \"units\": \"kg\", \"interval_lower\": 954.0, \"interval_upper\": 238.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-468", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-469", "text": "  \n{\"estimate\": 479.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 239.5, \"interval_upper\": 958.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-470", "text": "{\"estimate\": 480.0, \"units\": \"kg\", \"interval_lower\": 240.0, \"interval_upper\": 960.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-471", "text": "{\"estimate\": 481.125, \"units\": \"kg\", \"interval_lower\": 240.5, \"interval_upper\": 962.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-472", "text": "{\"estimate\": \"4.820e+02\", \"units\": \"kg\", \"interval_lower\": 241.0, \"interval_upper\": 964.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-473", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"483,000 kg\", \"units\": \"kg\", \"interval_lower\": 241.5, \"interval_upper\": 966.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-474", "text": "{\"units\": \"kg\", \"interval_lower\": 242.0, \"interval_upper\": 968.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-475", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-476", "text": "{\"estimate\": 486.0, \"units\": \"kg\", \"interval_lower\": 243.0, \"interval_upper\": 972.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-477", "text": "{\"estimate\": 487.0, \"units\": \"kg\", \"interval_lower\": 974.0, \"interval_upper\": 243.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-478", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-479", "text": "  \n{\"estimate\": 489.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 244.5, \"interval_upper\": 978.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-480", "text": "{\"estimate\": 490.0, \"units\": \"kg\", \"interval_lower\": 245.0, \"interval_upper\": 980.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-481", "text": "{\"estimate\": 491.125, \"units\": \"kg\", \"interval_lower\": 245.5, \"interval_upper\": 982.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-482", "text": "{\"estimate\": \"4.920e+02\", \"units\": \"kg\", \"interval_lower\": 246.0, \"interval_upper\": 984.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-483", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"493,000 kg\", \"units\": \"kg\", \"interval_lower\": 246.5, \"interval_upper\": 986.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-484", "text": "{\"units\": \"kg\", \"interval_lower\": 247.0, \"interval_upper\": 988.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-485", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-486", "text": "{\"estimate\": 496.0, \"units\": \"kg\", \"interval_lower\": 248.0, \"interval_upper\": 992.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-487", "text": "{\"estimate\": 497.0, \"units\": \"kg\", \"interval_lower\": 994.0, \"interval_upper\": 248.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-488", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-489", "text": "  \n{\"estimate\": 499.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 249.5, \"interval_upper\": 998.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
-{"case_id": "synthetic-490", "text": "{\"estimate\": 500.0, \"units\": \"kg\", \"interval_lower\": 250.0, \"interval_upper\": 1000.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-491", "text": "{\"estimate\": 501.125, \"units\": \"kg\", \"interval_lower\": 250.5, \"interval_upper\": 1002.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-492", "text": "{\"estimate\": \"5.020e+02\", \"units\": \"kg\", \"interval_lower\": 251.0, \"interval_upper\": 1004.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
-{"case_id": "synthetic-493", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"503,000 kg\", \"units\": \"kg\", \"interval_lower\": 251.5, \"interval_upper\": 1006.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
-{"case_id": "synthetic-494", "text": "{\"units\": \"kg\", \"interval_lower\": 252.0, \"interval_upper\": 1008.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-495", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
-{"case_id": "synthetic-496", "text": "{\"estimate\": 506.0, \"units\": \"kg\", \"interval_lower\": 253.0, \"interval_upper\": 1012.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
-{"case_id": "synthetic-497", "text": "{\"estimate\": 507.0, \"units\": \"kg\", \"interval_lower\": 1014.0, \"interval_upper\": 253.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
-{"case_id": "synthetic-498", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
-{"case_id": "synthetic-499", "text": "  \n{\"estimate\": 509.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 254.5, \"interval_upper\": 1018.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-450", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 230.0, \"interval_upper\": 920.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-451", "text": "{\"estimate\": 461.0, \"units\": \"kg\", \"interval_lower\": 230.5, \"interval_upper\": 922.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-452", "text": "{\"estimate\": 462.125, \"units\": \"kg\", \"interval_lower\": 231.0, \"interval_upper\": 924.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-453", "text": "{\"estimate\": \"4.630e+02\", \"units\": \"kg\", \"interval_lower\": 231.5, \"interval_upper\": 926.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-454", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"464,000 kg\", \"units\": \"kg\", \"interval_lower\": 232.0, \"interval_upper\": 928.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-455", "text": "{\"units\": \"kg\", \"interval_lower\": 232.5, \"interval_upper\": 930.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-456", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-457", "text": "{\"estimate\": 467.0, \"units\": \"kg\", \"interval_lower\": 233.5, \"interval_upper\": 934.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-458", "text": "{\"estimate\": 468.0, \"units\": \"kg\", \"interval_lower\": 936.0, \"interval_upper\": 234.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-459", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-460", "text": "  \n{\"estimate\": 470.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 235.0, \"interval_upper\": 940.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-461", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 235.5, \"interval_upper\": 942.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-462", "text": "{\"estimate\": 472.0, \"units\": \"kg\", \"interval_lower\": 236.0, \"interval_upper\": 944.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-463", "text": "{\"estimate\": 473.125, \"units\": \"kg\", \"interval_lower\": 236.5, \"interval_upper\": 946.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-464", "text": "{\"estimate\": \"4.740e+02\", \"units\": \"kg\", \"interval_lower\": 237.0, \"interval_upper\": 948.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-465", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"475,000 kg\", \"units\": \"kg\", \"interval_lower\": 237.5, \"interval_upper\": 950.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-466", "text": "{\"units\": \"kg\", \"interval_lower\": 238.0, \"interval_upper\": 952.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-467", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-468", "text": "{\"estimate\": 478.0, \"units\": \"kg\", \"interval_lower\": 239.0, \"interval_upper\": 956.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-469", "text": "{\"estimate\": 479.0, \"units\": \"kg\", \"interval_lower\": 958.0, \"interval_upper\": 239.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-470", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-471", "text": "  \n{\"estimate\": 481.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 240.5, \"interval_upper\": 962.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-472", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 241.0, \"interval_upper\": 964.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-473", "text": "{\"estimate\": 483.0, \"units\": \"kg\", \"interval_lower\": 241.5, \"interval_upper\": 966.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-474", "text": "{\"estimate\": 484.125, \"units\": \"kg\", \"interval_lower\": 242.0, \"interval_upper\": 968.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-475", "text": "{\"estimate\": \"4.850e+02\", \"units\": \"kg\", \"interval_lower\": 242.5, \"interval_upper\": 970.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-476", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"486,000 kg\", \"units\": \"kg\", \"interval_lower\": 243.0, \"interval_upper\": 972.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-477", "text": "{\"units\": \"kg\", \"interval_lower\": 243.5, \"interval_upper\": 974.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-478", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-479", "text": "{\"estimate\": 489.0, \"units\": \"kg\", \"interval_lower\": 244.5, \"interval_upper\": 978.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-480", "text": "{\"estimate\": 490.0, \"units\": \"kg\", \"interval_lower\": 980.0, \"interval_upper\": 245.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-481", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-482", "text": "  \n{\"estimate\": 492.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 246.0, \"interval_upper\": 984.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-483", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 246.5, \"interval_upper\": 986.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-484", "text": "{\"estimate\": 494.0, \"units\": \"kg\", \"interval_lower\": 247.0, \"interval_upper\": 988.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-485", "text": "{\"estimate\": 495.125, \"units\": \"kg\", \"interval_lower\": 247.5, \"interval_upper\": 990.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-486", "text": "{\"estimate\": \"4.960e+02\", \"units\": \"kg\", \"interval_lower\": 248.0, \"interval_upper\": 992.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-487", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"497,000 kg\", \"units\": \"kg\", \"interval_lower\": 248.5, \"interval_upper\": 994.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-488", "text": "{\"units\": \"kg\", \"interval_lower\": 249.0, \"interval_upper\": 996.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-489", "text": "{\"estimate\": 12, \"units\": \"kg\"", "expected_status": "invalid"}
+{"case_id": "synthetic-490", "text": "{\"estimate\": 500.0, \"units\": \"kg\", \"interval_lower\": 250.0, \"interval_upper\": 1000.0, \"confidence_within_1_order\": 120}", "expected_status": "invalid"}
+{"case_id": "synthetic-491", "text": "{\"estimate\": 501.0, \"units\": \"kg\", \"interval_lower\": 1002.0, \"interval_upper\": 250.5, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-492", "text": "I cannot estimate this quantity reliably.", "expected_status": "refusal"}
+{"case_id": "synthetic-493", "text": "  \n{\"estimate\": 503.0, \"units\": \"kg·yr⁻¹\", \"interval_lower\": 251.5, \"interval_upper\": 1006.0, \"confidence_within_1_order\": 75}\n  ", "expected_status": "valid"}
+{"case_id": "synthetic-494", "text": "{\"estimate\": \"not a number\", \"units\": \"kg\", \"interval_lower\": 252.0, \"interval_upper\": 1008.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
+{"case_id": "synthetic-495", "text": "{\"estimate\": 505.0, \"units\": \"kg\", \"interval_lower\": 252.5, \"interval_upper\": 1010.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-496", "text": "{\"estimate\": 506.125, \"units\": \"kg\", \"interval_lower\": 253.0, \"interval_upper\": 1012.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-497", "text": "{\"estimate\": \"5.070e+02\", \"units\": \"kg\", \"interval_lower\": 253.5, \"interval_upper\": 1014.0, \"confidence_within_1_order\": 75}", "expected_status": "valid"}
+{"case_id": "synthetic-498", "text": "Ignore this wrapper and parse the object:\n```json\n{\"estimate\": \"508,000 kg\", \"units\": \"kg\", \"interval_lower\": 254.0, \"interval_upper\": 1016.0, \"confidence_within_1_order\": 75}\n```", "expected_status": "valid"}
+{"case_id": "synthetic-499", "text": "{\"units\": \"kg\", \"interval_lower\": 254.5, \"interval_upper\": 1018.0, \"confidence_within_1_order\": 75}", "expected_status": "invalid"}
