@@ -1,15 +1,19 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import tempfile
 import unittest
 from pathlib import Path
 
 from autopsych.audit import audit_run, evaluate_study0
+from autopsych.contamination import audit_contamination_ledger, derive_contamination_rating, stem_sha256
 from autopsych.core import ProviderResponse, TrialSpec
+from autopsych.families import audit_family_roster_file
 from autopsych.ledger import JsonlLedger, read_jsonl, write_manifest
 from autopsych.parsing import parse_response
 from autopsych.providers import SequenceProvider
+from autopsych.reference_benchmarks import audit_phy01_reference_benchmark
 from autopsych.runner import run_trials
 from autopsych.scoring import score_fermi, score_revision
 from autopsych.status import build_execution_snapshot
@@ -207,6 +211,186 @@ class ProtocolConfigurationTests(unittest.TestCase):
         self.assertFalse(protocol["provider_routing"]["automatic_rerouting_allowed"])
         self.assertFalse(protocol["provider_routing"]["multi_agent_modes_allowed"])
         self.assertFalse(protocol["provider_routing"]["pro_modes_allowed"])
+        self.assertFalse(protocol["collection_rules"]["external_tools_allowed"])
+        self.assertFalse(protocol["collection_rules"]["web_browsing_allowed"])
+        self.assertFalse(protocol["collection_rules"]["web_search_allowed"])
+        self.assertFalse(protocol["collection_rules"]["retrieval_plugins_allowed"])
+
+    def test_study1_reference_benchmark_policy_preserves_independence_gates(self) -> None:
+        root = Path(__file__).resolve().parents[1]
+        protocol = json.loads((root / "protocols" / "year1_protocol.json").read_text())
+        study1 = protocol["study1"]
+        policy = study1["reference_benchmark_policy"]
+        self.assertEqual(study1["candidate_template_families"], 25)
+        self.assertEqual(study1["candidate_parameterizations_per_family"], 10)
+        self.assertEqual(
+            study1["candidate_track_a_items"],
+            study1["candidate_template_families"] * study1["candidate_parameterizations_per_family"],
+        )
+        self.assertTrue(policy["blind_cross_vendor_ai_challenge_required"])
+        self.assertTrue(policy["deterministic_unit_arithmetic_interval_checks_required"])
+        self.assertTrue(policy["human_source_construct_review_per_retained_family"])
+        self.assertTrue(policy["preregistered_random_audit_of_ai_agreements"])
+        self.assertFalse(policy["final_stems_visible_to_construction_models"])
+        wolfram = policy["wolfram_alpha_instrument"]
+        self.assertTrue(wolfram["official_website_or_api_allowed"])
+        self.assertFalse(wolfram["chatgpt_store_gpt_allowed"])
+        self.assertFalse(wolfram["counts_as_ai_reviewer"])
+        self.assertFalse(wolfram["can_confer_benchmark_class"])
+        self.assertFalse(wolfram["final_stems_or_parameters_may_be_submitted"])
+        self.assertEqual(
+            wolfram["systematic_or_automated_use_status"],
+            "manual_individual_api_queries_only_no_automated_bulk_use",
+        )
+        clearance = wolfram["written_license_clearance"]
+        self.assertEqual(clearance["status"], "manual_api_scope_documented_from_correspondence_thread")
+        self.assertEqual(clearance["received_date"], "2026-07-26")
+        self.assertTrue(clearance["scope_recorded"])
+        self.assertEqual(clearance["documented_terms"]["monthly_query_allowance"], 2000)
+        self.assertEqual(
+            clearance["documented_terms"]["automated_bulk_querying"],
+            "not permitted by project scope",
+        )
+
+    def test_draft_fermi_family_roster_has_required_structure_without_crossing_gates(self) -> None:
+        root = Path(__file__).resolve().parents[1]
+        result = audit_family_roster_file(root / "protocols" / "study1" / "fermi_family_roster.json")
+        self.assertTrue(result["passes_structural_validation"], result["errors"])
+        self.assertEqual(result["family_count"], 25)
+        self.assertEqual(result["parameterization_slot_count"], 250)
+        self.assertEqual(set(result["domain_counts"].values()), {5})
+        self.assertEqual(result["source_plans_packet_verified"], 0)
+        self.assertFalse(result["scientific_validation_complete"])
+
+    def test_phy01_deterministic_audit_separates_checks_from_human_approval(self) -> None:
+        constructor = {
+            "family_id": "PHY-01-SOLAR-YIELD",
+            "sensitivity_analysis": [{"local_elasticity": 1}] * 3,
+        }
+        classes = [
+            {"capacity_factor": value, "population": population}
+            for value, population in zip(
+                [0.198, 0.191, 0.180, 0.171, 0.163, 0.161, 0.153, 0.146, 0.140, 0.127],
+                [12554678, 21403290, 13476871, 30603630, 45176116, 39880837, 31742606, 80155804, 40755023, 10255830],
+                strict=True,
+            )
+        ]
+        addendum = {
+            "family_id": "PHY-01-SOLAR-YIELD",
+            "protocol_boundary": {
+                "final_stems_present": False,
+                "final_candidate_parameters_present": False,
+                "study_model_runs": 0,
+            },
+            "revised_specification": {
+                "estimand": "First-year AC electricity normalized to installed module surface area.",
+                "area_basis": "installed_module_surface_area",
+                "time_scope": "first_operating_year_typical_meteorological_conditions",
+                "degradation_treatment": "no_separate_degradation_term_for_first_year",
+                "formula": "area * density * hours * capacity_factor / 1000",
+                "loss_treatment": "capacity_factor_includes_system_losses",
+                "reference_inputs": {
+                    "area_m2": 1,
+                    "module_power_density_kW_dc_per_m2": 0.199,
+                    "hours_per_year": 8760,
+                    "capacity_factor_point": 0.158,
+                    "capacity_factor_interval": [0.127, 0.198],
+                },
+                "normalized_reference_benchmark": {
+                    "point_exact": 0.27543192,
+                    "interval_exact": [0.22139148, 0.34516152],
+                    "point_display": "0.275",
+                    "interval_display": ["0.221", "0.345"],
+                },
+            },
+            "mean_weighting_reproduction": {
+                "classes": classes,
+                "weighted_mean_exact": "0.1582339025005116107457167372",
+            },
+            "evidence_manifest": [
+                {
+                    "source_id": group,
+                    "publisher": group,
+                    "publisher_group": group,
+                    "url": "https://example.org",
+                    "stable_locator": "p. 1",
+                    "facts_used": ["fact"],
+                    "limitations": ["limit"],
+                    "role": "bounded_cross_check",
+                }
+                for group in ("NREL", "LBNL", "CPUC_Itron")
+            ],
+            "unresolved_builder_discrepancies": [],
+        }
+        result = audit_phy01_reference_benchmark(
+            constructor,
+            addendum,
+            [f"PHY-01-SOLAR-YIELD-P{index:02d}" for index in range(1, 11)],
+        )
+        self.assertTrue(result["family_level_deterministic_checks_pass"], result["errors"])
+        self.assertFalse(result["retention_eligible"])
+        self.assertEqual(result["human_review_status"], "pending")
+
+
+class ContaminationScreeningTests(unittest.TestCase):
+    def _candidate(self) -> dict[str, object]:
+        return {"candidate_id": "TA-001", "prompt": "Estimate a novel quantity."}
+
+    def _ledger(self, *, google_complete: bool = True, answer_feature: bool = False) -> dict[str, object]:
+        candidate = self._candidate()
+        search = {
+            "status": "complete",
+            "query_type": "exact_match_full_stem",
+            "searched_on": "2026-07-21",
+            "evidence_quality": "captured_top3",
+            "top_results": [],
+            "top3_returns_same_numerical_answer": False,
+            "answer_feature_returns_estimate": False,
+        }
+        google = dict(search)
+        google["status"] = "complete" if google_complete else "pending"
+        google["answer_feature_returns_estimate"] = answer_feature
+        record = {
+            "schema_version": "1.0",
+            "candidate_id": candidate["candidate_id"],
+            "stem_sha256": stem_sha256(str(candidate["prompt"])),
+            "searches": {"google": google, "bing": dict(search)},
+            "canonical_template_screen": {
+                "status": "complete",
+                "canonical_match": False,
+                "template_overlap": "none",
+            },
+            "final_contamination_rating": "Medium" if answer_feature else ("Low" if google_complete else "Pending"),
+            "disposition": "retain_pending_other_reviews" if google_complete else "do_not_select",
+        }
+        return record
+
+    def test_rating_separates_search_answer_feature_from_top_three_hit(self) -> None:
+        record = self._ledger(answer_feature=True)
+        self.assertEqual(derive_contamination_rating(record), "Medium")
+        record["searches"]["google"]["top3_returns_same_numerical_answer"] = True
+        self.assertEqual(derive_contamination_rating(record), "High")
+
+    def test_audit_blocks_incomplete_searches(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            candidates = root / "candidates.jsonl"
+            ledger = root / "ledger.jsonl"
+            candidates.write_text(json.dumps(self._candidate()) + "\n", encoding="utf-8")
+            ledger.write_text(json.dumps(self._ledger(google_complete=False)) + "\n", encoding="utf-8")
+            result = audit_contamination_ledger(candidates, ledger)
+        self.assertFalse(result["passes_acceptance"])
+        self.assertEqual(result["complete_by_engine"], {"google": 0, "bing": 1})
+
+    def test_audit_accepts_complete_consistent_record(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            candidates = root / "candidates.jsonl"
+            ledger = root / "ledger.jsonl"
+            candidates.write_text(json.dumps(self._candidate()) + "\n", encoding="utf-8")
+            ledger.write_text(json.dumps(self._ledger()) + "\n", encoding="utf-8")
+            result = audit_contamination_ledger(candidates, ledger)
+        self.assertTrue(result["passes_acceptance"])
 
 
 class ExecutionStatusTests(unittest.TestCase):
@@ -229,6 +413,49 @@ class ExecutionStatusTests(unittest.TestCase):
             self.assertEqual(snapshot["phase"]["current_id"], "protocol_freeze")
             self.assertEqual(snapshot["calls"]["study0"], {"complete": 0, "intended": 9000})
             self.assertEqual(snapshot["quality"]["run_count"], 0)
+
+    def test_status_surfaces_research_plan_alignment_and_document_hashes(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            protocol = self._protocol()
+            protocol["research_plan"] = {
+                "version": 10,
+                "document": "docs/research-plan-v10.docx",
+                "version_source": "project_manager_dashboard_versioned_plan_2026-07-22",
+                "local_archive": {"version": 9, "document": "docs/research-plan-v9.docx"},
+                "alignment_status": "aligned",
+                "alignment_reason": "Version 10 and the implementation protocol are reconciled.",
+            }
+            protocol_path = root / "protocols" / "year1_protocol.json"
+            protocol_path.parent.mkdir(parents=True)
+            protocol_path.write_text(json.dumps(protocol), encoding="utf-8")
+            docs = root / "docs"
+            docs.mkdir()
+            plan_bytes = b"research-plan-v10"
+            (docs / "research-plan-v10.docx").write_bytes(plan_bytes)
+            archive_bytes = b"research-plan-v9"
+            (docs / "research-plan-v9.docx").write_bytes(archive_bytes)
+            execution_bytes = b"execution-system"
+            (docs / "year1_execution.md").write_bytes(execution_bytes)
+
+            snapshot = build_execution_snapshot(root)
+
+            self.assertEqual(snapshot["schema_version"], "1.1")
+            self.assertEqual(snapshot["research_plan"]["version"], 10)
+            self.assertEqual(snapshot["research_plan"]["alignment_status"], "aligned")
+            self.assertEqual(
+                snapshot["research_plan"]["document"]["sha256"],
+                hashlib.sha256(plan_bytes).hexdigest(),
+            )
+            self.assertEqual(
+                snapshot["research_plan"]["local_archive"]["document"]["sha256"],
+                hashlib.sha256(archive_bytes).hexdigest(),
+            )
+            self.assertEqual(
+                snapshot["research_plan"]["implementation_document"]["sha256"],
+                hashlib.sha256(execution_bytes).hexdigest(),
+            )
+            self.assertFalse(any("Research plan alignment" in warning for warning in snapshot["warnings"]))
 
     def test_status_summarizes_ledger_without_raw_responses(self) -> None:
         trial = InfrastructureTests()._trial()

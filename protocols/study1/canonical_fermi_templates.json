@@ -1,0 +1,17 @@
+{
+  "version": "1.0-draft",
+  "status": "not-preregistered",
+  "purpose": "Seed list for phrase screening; semantic family review is also required.",
+  "templates": [
+    "piano tuners in Chicago",
+    "windows in New York City",
+    "golf balls in a school bus",
+    "jelly beans in a jar",
+    "gas stations in a city",
+    "haircuts given in a city per day",
+    "drops of water in the ocean",
+    "grains of sand on a beach",
+    "toothpicks produced per year",
+    "airplanes in the sky at one time"
+  ]
+}

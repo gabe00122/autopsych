@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 from .audit import audit_run
+from .contamination import audit_contamination_ledger
 from .status import build_execution_snapshot
 from .synthetic import validate_cases, validate_gold_cases, write_cases
 
@@ -29,6 +30,10 @@ def main() -> None:
     status = subparsers.add_parser("status")
     status.add_argument("--root", type=Path, default=Path.cwd())
 
+    contamination = subparsers.add_parser("audit-contamination")
+    contamination.add_argument("candidates", type=Path)
+    contamination.add_argument("ledger", type=Path)
+
     args = parser.parse_args()
     if args.command == "generate-synthetic":
         write_cases(args.output)
@@ -47,6 +52,10 @@ def main() -> None:
         raise SystemExit(0 if result["passes_99_percent"] else 1)
     elif args.command == "status":
         print(json.dumps(build_execution_snapshot(args.root), indent=2))
+    elif args.command == "audit-contamination":
+        result = audit_contamination_ledger(args.candidates, args.ledger)
+        print(json.dumps(result, indent=2))
+        raise SystemExit(0 if result["passes_acceptance"] else 1)
 
 
 if __name__ == "__main__":

@@ -29,6 +29,34 @@ Each intended trial receives exactly one terminal record. Required fields includ
 
 API errors, refusals, and parse failures are data. They are never represented by a missing row.
 
+## Private reference-benchmark family packet
+
+Each template family has one private packet containing the family ID, domain,
+estimand, formula, units, bridge quantities, primary-source references and
+snapshots, benchmark point and interval, sensitivity results, optional external
+back-check, benchmark class (A/B/C), constructor output, blind cross-vendor
+challenge, deterministic-check result, human source/construct sign-off, and any
+adjudication record. When used, the Wolfram Alpha instrument record includes
+the exact query, timestamp, official website/API access method, input
+interpretation, assumptions, result and units, displayed attribution/source
+information, result link, and licensing basis for retention. Candidate records reference the family ID and inherit only
+an approved A or B packet. Final numerical stems are absent until after
+preregistration.
+
+The current prototype candidate JSON uses the legacy field names
+`ground_truth_point` and `plausible_truth_interval`. Until the replacement
+family schema is frozen, those fields are interpreted as the reference-
+benchmark point and interval; they must not be described as exact known truth.
+
+## Private contamination ledger
+
+Each candidate has one private contamination record containing the candidate
+ID and stem SHA-256, exact-match Google and Bing screen status, search date,
+top-three answer judgment, evidence quality, search-answer-feature flag,
+canonical-template result, final Low/Medium/High or Pending rating, rationale,
+and disposition. Search-generated answers are recorded separately from organic
+top-three results. A candidate with any pending screen cannot be selected.
+
 ## Release tiers
 
 - `data/private/`: embargoed item parameters and private OSF hashes; never commit during collection.

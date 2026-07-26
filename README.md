@@ -43,7 +43,7 @@ uv run --no-sync autopsych audit-run runs/<run-id>/manifest.json runs/<run-id>/r
 uv run --no-sync autopsych status --root .
 ```
 
-The `status` command emits an aggregate, machine-readable execution snapshot for the separate project-monitoring dashboard. It includes protocol and repository hashes, run completeness, call counts, quality warnings, and the current gated phase. It never includes prompts, messages, raw model responses, or parsed trial values.
+The `status` command emits an aggregate, machine-readable execution snapshot for the separate project-monitoring dashboard. It includes the current research-plan version and source, current and archived document hashes, protocol and repository hashes, dirty paths, run completeness, call counts, quality warnings, and the current gated phase. A missing current plan or plan/protocol mismatch remains visible in `research_plan.alignment_status` until the authoritative plan artifact and implementation protocol are explicitly reconciled. The snapshot never includes prompts, messages, raw model responses, or parsed trial values.
 
 ## Repository map
 

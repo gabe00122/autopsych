@@ -47,7 +47,7 @@ Exit criterion: all four acceptance criteria pass. Three of four requires remedi
 
 ## Gate 3: Study 1 preparation
 
-Generate 250 candidate Track A items with domain, formula, supplied parameters, bridge quantities, sourced ranges, point truth, plausible truth interval, uncertainty width, contamination rating, and inclusion status. Two researchers independently verify ground truth. Search-based contamination screening is a proxy only; parameterization is the main defense.
+Develop 25 candidate template families across the five registered domains and generate 10 provisional parameterizations per family. Each family receives a reference-benchmark packet with a precise estimand, formula, bridge quantities, sourced ranges, benchmark point and interval, sensitivity analysis, contamination rating, and inclusion status. One AI constructs the packet; a different-vendor AI challenges and independently recomputes it. Deterministic checks verify arithmetic, units, intervals, and propagation. The official Wolfram Alpha website or API provides a logged family-level computational cross-check for calculations, units, component quantities, and external aggregates; the Wolfram GPT is prohibited, Wolfram Alpha is not a benchmark authority, and automated use requires prior licensing clearance. A human verifies the sources and construct for every retained family; a second human adjudicates all disagreements and high-risk families plus a preregistered random sample of AI agreements. Only externally checkable or constructed-and-triangulated families may be retained. Search-based contamination screening is a proxy only; parameterization is the main defense.
 
 Pilot at least one configuration from each vendor, tune Track B difficulty, apply registered exclusions, and freeze 160-170 Track A items plus 80 items per Track B format.
 
@@ -66,4 +66,7 @@ Exit criterion: locked scored dataset, reproducible analysis outputs, deviation 
 - 🔴 **Embargo leakage:** committing final Study 1 parameters before collection defeats the contamination-control design.
 - 🔴 **False validation:** directional behavioral replication cannot by itself prove parser fidelity; all four Study 0 layers are required.
 - 🔴 **Silent repair:** clamping confidence or repairing reversed intervals biases failure rates and invalidates the parser audit.
-- 🔴 **Human workload:** 20-30 in-kind coding hours and two independent ground-truth reviewers are schedule constraints, not zero-cost automation.
+- 🔴 **Correlated AI error:** cross-vendor agreement can still reproduce shared sources, assumptions, and framing errors; deterministic checks and human source/construct review remain mandatory.
+- 🔴 **Circular item exposure:** construction and review models may see provisional templates, never final confirmatory stems or parameters. Final parameters are generated only after preregistration.
+- 🔴 **Wolfram licensing and provenance:** written correspondence on July 26, 2026, replying to the manual API request, supports individual researcher-initiated API queries for non-commercial use up to 2,000 queries/month and confirms the project's no-cache/no-training commitment. Automated bulk querying remains out of scope. Record any later rate-limit, retention, attribution, or publication terms. Wolfram Alpha outputs remain cross-checks, not primary evidence or exact truth.
+- 🔴 **Human workload:** human review moves from 250 independent solutions to family-level source/construct verification, disagreement adjudication, and a preregistered agreement audit; it is reduced, not eliminated.

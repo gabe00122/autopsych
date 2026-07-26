@@ -1,9 +1,20 @@
 {
-  "protocol_id": "machine-psychology-year1-v4-implementation-draft",
+  "protocol_id": "machine-psychology-year1-v10-implementation-draft",
   "status": "draft-not-preregistered",
   "project_period": {
     "start": "2026-07-01",
     "end": "2027-06-30"
+  },
+  "research_plan": {
+    "version": 10,
+    "document": "docs/Machine_Psychology_Year1_Research_Plan_v10.docx",
+    "version_source": "project_manager_dashboard_versioned_plan_2026-07-22",
+    "local_archive": {
+      "version": 9,
+      "document": "docs/Machine_Psychology_Year1_Research_Plan_v9.docx"
+    },
+    "alignment_status": "aligned",
+    "alignment_reason": "Version 10 preserves the Version 9 model roster, routing controls, benchmark safeguards, and provisional-pricing boundary while clarifying that the design has 25 Fermi task families, six model configurations, five Track A elicitation conditions, and three separate Track B formats. All six routes remain pending integration tests and the protocol remains draft-not-preregistered."
   },
   "sequence": [
     "protocol_freeze",
@@ -59,6 +70,8 @@
   },
   "study1": {
     "candidate_track_a_items": 250,
+    "candidate_template_families": 25,
+    "candidate_parameterizations_per_family": 10,
     "retained_track_a_items": 160,
     "repetitions": 3,
     "track_a_calls": 20160,
@@ -66,11 +79,75 @@
     "conditions": ["standard", "forced_interval", "reasoning_scaffold", "neutral_reconsideration", "social_challenge"],
     "track_b_formats": ["comparison_2afc", "threshold", "validity_check"],
     "track_b_items_per_format": 80,
-    "track_b_trials_per_model_format_cell": 240
+    "track_b_trials_per_model_format_cell": 240,
+    "reference_benchmark_policy": {
+      "terminology": "reference_benchmark_not_known_ground_truth",
+      "eligible_classes": ["A_externally_checkable", "B_constructed_triangulated"],
+      "excluded_classes": ["C_speculative"],
+      "ai_constructor_required": true,
+      "blind_cross_vendor_ai_challenge_required": true,
+      "deterministic_unit_arithmetic_interval_checks_required": true,
+      "human_source_construct_review_per_retained_family": true,
+      "human_adjudication_for_all_disagreements_and_high_risk_families": true,
+      "preregistered_random_audit_of_ai_agreements": true,
+      "final_stems_visible_to_construction_models": false,
+      "wolfram_alpha_instrument": {
+        "role": "logged_family_level_computational_cross_check",
+        "official_website_or_api_allowed": true,
+        "chatgpt_store_gpt_allowed": false,
+        "counts_as_ai_reviewer": false,
+        "can_confer_benchmark_class": false,
+        "primary_source_status": false,
+        "final_stems_or_parameters_may_be_submitted": false,
+        "local_reproduction_of_final_arithmetic_required": true,
+        "systematic_or_automated_use_status": "manual_individual_api_queries_only_no_automated_bulk_use",
+        "written_license_clearance": {
+          "status": "manual_api_scope_documented_from_correspondence_thread",
+          "received_date": "2026-07-26",
+          "evidence_location": "data/private/wolfram_correspondence_2026-07-26.md",
+          "scope_recorded": true,
+          "documented_terms": {
+            "usage_class": "noncommercial",
+            "monthly_query_allowance": 2000,
+            "manual_api_querying": "individual researcher-initiated logged cross-checks",
+            "automated_bulk_querying": "not permitted by project scope",
+            "project_commitment": "no caching or training with results"
+          },
+          "unconfirmed_scope": [
+            "rate limits",
+            "result retention detail",
+            "attribution and publication conditions"
+          ],
+          "scope_recording_requirements": [
+            "manual API workflow limited to the original licensing request",
+            "no automated bulk querying",
+            "rate, volume, and account restrictions",
+            "research-use, storage, retention, and publication rights",
+            "required attribution and result-retention conditions"
+          ]
+        },
+        "required_log_fields": [
+          "exact_query",
+          "queried_at",
+          "access_method",
+          "input_interpretation",
+          "assumptions",
+          "result",
+          "units",
+          "displayed_sources_or_attribution",
+          "result_link",
+          "retention_license_basis"
+        ]
+      }
+    }
   },
   "collection_rules": {
     "manifest_before_calls": true,
     "final_items_after_preregistration": true,
+    "external_tools_allowed": false,
+    "web_browsing_allowed": false,
+    "web_search_allowed": false,
+    "retrieval_plugins_allowed": false,
     "model_freeze_days_before_study0": 14,
     "sentinel_items": 20,
     "full_raw_response_required": true,

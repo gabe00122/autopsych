@@ -11,7 +11,7 @@ from .audit import audit_run
 from .ledger import read_jsonl
 
 
-SCHEMA_VERSION = "1.0"
+SCHEMA_VERSION = "1.1"
 SOURCE = "autopsych"
 PHASE_LABELS = {
     "protocol_freeze": "Protocol freeze",
@@ -46,7 +46,19 @@ def _git_value(root: Path, *args: str) -> str | None:
         )
     except (OSError, subprocess.TimeoutExpired):
         return None
-    return result.stdout.strip() if result.returncode == 0 else None
+    return result.stdout.rstrip() if result.returncode == 0 else None
+
+
+def _document_snapshot(root: Path, relative_path: str | None) -> dict[str, Any]:
+    if not relative_path:
+        return {"path": relative_path, "exists": False, "sha256": None}
+    path = root / relative_path
+    exists = path.is_file()
+    return {
+        "path": relative_path,
+        "exists": exists,
+        "sha256": hashlib.sha256(path.read_bytes()).hexdigest() if exists else None,
+    }
 
 
 def _study_bucket(value: Any) -> str | None:
@@ -162,6 +174,15 @@ def build_execution_snapshot(root: Path) -> dict[str, Any]:
     commit = _git_value(root, "rev-parse", "HEAD")
     porcelain = _git_value(root, "status", "--porcelain")
     dirty = None if porcelain is None else bool(porcelain)
+    dirty_paths = None if porcelain is None else [line[3:] for line in porcelain.splitlines() if len(line) > 3]
+
+    plan_config = protocol.get("research_plan") or {}
+    plan_document = _document_snapshot(root, plan_config.get("document"))
+    archive_config = plan_config.get("local_archive") or {}
+    archive_document = _document_snapshot(root, archive_config.get("document"))
+    execution_document = _document_snapshot(root, "docs/year1_execution.md")
+    alignment_status = str(plan_config.get("alignment_status") or "unspecified")
+    alignment_reason = plan_config.get("alignment_reason")
 
     integrity_failures = sum(1 for run in runs if not run["passes_integrity"])
     api_errors = sum(int(run["api_errors"]) for run in runs)
@@ -172,6 +193,13 @@ def build_execution_snapshot(root: Path) -> dict[str, Any]:
         warnings.append(f"{api_errors} terminal record(s) contain API errors.")
     if parse_failures:
         warnings.append(f"{parse_failures} terminal record(s) contain parse failures.")
+    if not plan_document["exists"]:
+        warnings.append(f"Research plan document is missing: {plan_document['path'] or 'not configured'}.")
+    if alignment_status != "aligned":
+        detail = f": {alignment_reason}" if alignment_reason else "."
+        warnings.append(f"Research plan alignment is {alignment_status}{detail}")
+    if dirty:
+        warnings.append("Repository has uncommitted changes; this snapshot reflects the working tree, not only the reported commit SHA.")
 
     return {
         "schema_version": SCHEMA_VERSION,
@@ -180,6 +208,19 @@ def build_execution_snapshot(root: Path) -> dict[str, Any]:
         "repository": {
             "commit_sha": commit,
             "dirty": dirty,
+            "dirty_paths": dirty_paths,
+        },
+        "research_plan": {
+            "version": plan_config.get("version"),
+            "alignment_status": alignment_status,
+            "alignment_reason": alignment_reason,
+            "version_source": plan_config.get("version_source"),
+            "document": plan_document,
+            "local_archive": {
+                "version": archive_config.get("version"),
+                "document": archive_document,
+            },
+            "implementation_document": execution_document,
         },
         "protocol": {
             "id": protocol.get("protocol_id"),
